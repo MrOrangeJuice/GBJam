@@ -1,13 +1,11 @@
 /// @description Init
 hsp = 0;
 vsp = 0;
-grv = 0.3;
+grv = 0.25;
 walksp = 1.5;
 currentwalksp = 0;
-hdashsp = 3;
-vdashsp = 3;
-xmod = 1;
-ymod = 1;
+hdashsp = 2.5;
+vdashsp = 2.5;
 xdir = 0;
 ydir = 0;
 currentdashtime = 0;

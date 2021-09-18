@@ -65,6 +65,15 @@ if(isDashing)
 		{
 			dashtime += 0.01;	
 		}
+		// Play charging sound effect
+		if(dashtime == maxdashtime * 0.6)
+		{
+			audio_play_sound(snd_Charge,5,false);
+		}
+		// Allow player to change initial xdir
+		if(key_left) xdir = -1;
+		if(key_right) xdir = 1;
+		sprite_index = sPlayerBall;
 	}
 	// If dash key is released, set can dash back to true for when you're out of the dash
 	if(key_dash_released)
@@ -76,6 +85,11 @@ if(isDashing)
 	{
 		dashInit = true;
 		ydir = 1;
+		if(xdir == 0)
+		{
+			xdir = image_xscale;	
+		}
+		audio_play_sound(snd_Dash,5,false);
 	}
 	if(dashInit)
 	{
@@ -83,12 +97,21 @@ if(isDashing)
 		//x collision
 		if(place_meeting(x + (hdashsp * xdir), y, oWall)){
 			xdir *= -1;
+			audio_play_sound(snd_Collision,5,false);
+			ScreenShake(1,5);
 		}
 
 		//y collision
 		if (place_meeting(x,y + (vdashsp * ydir),oWall)){
 			ydir *= -1;
+			audio_play_sound(snd_Collision,5,false);
+			ScreenShake(1,5);
 		}
+		
+		// Animation
+		sprite_index = sPlayerDash;
+		image_xscale = xdir;
+		image_yscale = ydir;
 		
 		if(currentdashtime >= dashtime)
 		{
@@ -106,7 +129,7 @@ if(isDashing)
 		}
 		else
 		{
-			x += hdashsp * image_xscale * xdir;
+			x += hdashsp * xdir;
 			y += vdashsp * ydir;
 			currentdashtime += 0.01;
 		}
@@ -119,17 +142,25 @@ else
 	if(key_left && !key_right)
 	{
 		currentwalksp -= 0.25;
-		if(currentwalksp < -walksp)
+		if(currentwalksp < (-walksp - 0.5))
 		{
 			currentwalksp += 0.5;
+		}
+		else if(currentwalksp < -walksp)
+		{
+			currentwalksp += 0.25;
 		}
 	}
 	if(key_right && !key_left)
 	{
 		currentwalksp += 0.25;
-		if(currentwalksp > walksp)
+		if(currentwalksp > (walksp + 0.5))
 		{
 			currentwalksp -= 0.5;
+		}
+		else if(currentwalksp > walksp)
+		{
+			currentwalksp -= 0.25;
 		}
 	}
 	// Slow down if not moving
@@ -138,21 +169,17 @@ else
 		if(currentwalksp < 0)
 		{
 			currentwalksp += 0.25;
-			// Round up
-			if(currentwalksp > -0.05)
-			{
-				currentwalksp = 0;	
-			}
 		}
 		if(currentwalksp > 0)
 		{
 			currentwalksp -= 0.25;
-			// Round down
-			if(currentwalksp < 0.05)
-			{
-				currentwalksp = 0;	
-			}
 		}
+	}
+	
+	// Clamp vsp
+	if(vsp >= vdashsp)
+	{
+		vsp = vdashsp;
 	}
 	hsp = currentwalksp;
 	vsp = vsp + grv;
@@ -188,8 +215,9 @@ else
 	// Jump
 	if(place_meeting(x, y + 1, oWall)) && (key_jump) && (canJump)
 	{
-		vsp = -4;
+		vsp = -3;
 		canJump = false;
+		audio_play_sound(snd_Jump,5,false);
 	}
 
 	// Variable jump height
@@ -221,4 +249,17 @@ else
 	// Determine direction
 	if (hsp != 0) xdir = key_right - key_left;
 	if (vsp != 0) ydir = sign(vsp);
+	
+	// Animation
+	if (hsp != 0) image_xscale = sign(hsp);
+	image_yscale = 1;
+	if(airborne)
+	{
+		if (vsp <= 0) sprite_index = sPlayerJumpUp;
+		if (vsp > 0) sprite_index = sPlayerJumpDown;
+	}
+	else
+	{
+		sprite_index = sPlayerIdle;
+	}
 }
