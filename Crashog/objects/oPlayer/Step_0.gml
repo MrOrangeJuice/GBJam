@@ -58,6 +58,11 @@ if (gamepad_button_check_released(0,gp_face3) || gamepad_button_check_released(0
 
 if(isDashing)
 {
+	// If player doesn't release jump, they can't jump again once the dash ends
+	if(key_jump_released)
+	{
+		canJump = true;
+	}
 	// Charge up dash up to a half second
 	if(key_dash && !dashInit)
 	{
