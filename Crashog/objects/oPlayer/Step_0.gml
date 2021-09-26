@@ -98,25 +98,45 @@ if(isDashing)
 	}
 	if(dashInit)
 	{
-		// Check wall collisions
-		//x collision
-		if(place_meeting(x + (hdashsp * xdir), y, oWall)){
-			xdir *= -1;
-			audio_play_sound(snd_Collision,5,false);
-			ScreenShake(1,5);
-		}
-
+		// Check wall and bumper collisions
 		//y collision
 		if (place_meeting(x,y + (vdashsp * ydir),oWall)){
 			ydir *= -1;
 			audio_play_sound(snd_Collision,5,false);
 			ScreenShake(1,5);
 		}
+		bumper = instance_place(x,y + (vdashsp * ydir),oBumper)
+		if (bumper){
+			ydir *= -1;
+			bumper.hit = true;
+			bumperHit = true;
+			audio_play_sound(snd_Bumper,5,false);
+			ScreenShake(1,5);
+			currentdashtime = 0;
+		}
+		
+		//x collision
+		if(place_meeting(x + (hdashsp * xdir), y, oWall)){
+			xdir *= -1;
+			audio_play_sound(snd_Collision,5,false);
+			ScreenShake(1,5);
+		}
+		bumper = instance_place(x + (hdashsp * xdir), y, oBumper);
+		if(bumper && !bumperHit) {
+			xdir *= -1;
+			bumper.hit = true;
+			audio_play_sound(snd_Bumper,5,false);
+			ScreenShake(1,5);
+			currentdashtime = 0;
+		}
 		
 		// Animation
 		sprite_index = sPlayerDash;
 		image_xscale = xdir;
 		image_yscale = ydir;
+		
+		// Reset bumper hit
+		bumperHit = false;
 		
 		if(currentdashtime >= dashtime)
 		{
@@ -138,7 +158,6 @@ if(isDashing)
 			y += vdashsp * ydir;
 			currentdashtime += 0.01;
 		}
-		
 	}
 }
 else
@@ -201,7 +220,7 @@ else
 	}
 	
 	// Check dash
-	if(key_dash && canDash && airborne)
+	if(key_dash && canDash && airborne && !place_meeting(x,y,oBumper))
 	{
 		isDashing = true;	
 		canDash = false;
@@ -265,6 +284,13 @@ else
 	}
 	else
 	{
-		sprite_index = sPlayerIdle;
+		if (hsp != 0)
+		{
+			sprite_index = sPlayerRun;
+		}
+		else
+		{
+			sprite_index = sPlayerIdle;
+		}
 	}
 }

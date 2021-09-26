@@ -2,7 +2,7 @@
 // Update destination
 if (instance_exists(oPlayer))
 {
-	xTo = (follow.x + 8);
+	xTo = (follow.x + 16);
 	yTo = follow.y;
 }
 
