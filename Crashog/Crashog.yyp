@@ -67,8 +67,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"roomId":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
+    {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "Folders": [
