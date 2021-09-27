@@ -1,4 +1,11 @@
 /// @description Draw coin counter
+
+// Set Text Properties
+draw_set_font(fUI);
+draw_set_color($002704);
+draw_set_halign(fa_right);
+draw_set_valign(fa_top);
+
 if(room != rTitle)
 {
 	coinOffset = 0;
@@ -20,6 +27,6 @@ if(room != rTitle)
 		coinOffset = -8;	
 	}
 	global.coinTextScale = max(global.coinTextScale * .95, 1);
-	//draw_sprite(sCoin,0,124 + coinOffset,8);
-	//draw_text_transformed(132,8,"*" + string(global.coins), global.coinTextScale, global.coinTextScale,0);
+	draw_sprite(sCoin,0,120 + coinOffset,9);
+	draw_text_transformed(158,4,"*" + string(global.coins), global.coinTextScale, global.coinTextScale,0);
 }
