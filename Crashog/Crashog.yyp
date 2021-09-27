@@ -41,6 +41,7 @@
     {"id":{"name":"snd_Jump","path":"sounds/snd_Jump/snd_Jump.yy",},"order":0,},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},"order":10,},
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":7,},
+    {"id":{"name":"sClouds","path":"sprites/sClouds/sClouds.yy",},"order":30,},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":28,},
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},"order":26,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
