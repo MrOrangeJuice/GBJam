@@ -256,6 +256,7 @@ else
 			x = x + sign(hsp);
 		}
 		hsp = 0;
+		currentwalksp = 0;
 	}
 
 	x = x + hsp;
