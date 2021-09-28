@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sJumpTutorial","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},"resourceVersion":"1.0","name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMoveTutorial","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},"resourceVersion":"1.0","name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sJumpTutorial","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},
+    "spriteId": {"name":"sMoveTutorial","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d4852f43-3b97-470d-b7b8-64c4b50b4fd8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1d6b6012-c69e-4944-bcd5-8684384d5b71","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sJumpTutorial","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},
+    "parent": {"name":"sMoveTutorial","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},
     "resourceVersion": "1.3",
-    "name": "sJumpTutorial",
+    "name": "sMoveTutorial",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sJumpTutorial",
+  "name": "sMoveTutorial",
   "tags": [],
   "resourceType": "GMSprite",
 }

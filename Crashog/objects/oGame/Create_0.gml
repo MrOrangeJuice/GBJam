@@ -4,3 +4,4 @@ global.lastCheckpointX = 0;
 global.lastCheckpointY = 0;
 global.coins = 0;
 global.coinTextScale = 1;
+global.time = 0;
