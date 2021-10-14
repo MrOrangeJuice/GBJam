@@ -5,6 +5,7 @@
     {"id":{"name":"sJumpTutorial","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},"order":34,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":3,},
     {"id":{"name":"snd_Charge","path":"sounds/snd_Charge/snd_Charge.yy",},"order":2,},
+    {"id":{"name":"sServerIcon","path":"sprites/sServerIcon/sServerIcon.yy",},"order":45,},
     {"id":{"name":"sDiscordTutorial","path":"sprites/sDiscordTutorial/sDiscordTutorial.yy",},"order":35,},
     {"id":{"name":"sPlayerDash","path":"sprites/sPlayerDash/sPlayerDash.yy",},"order":3,},
     {"id":{"name":"sCrashTutorialHold","path":"sprites/sCrashTutorialHold/sCrashTutorialHold.yy",},"order":21,},
