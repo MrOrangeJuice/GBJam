@@ -27,6 +27,6 @@ if(room != rTitle && room != rResults)
 		coinOffset = -8;	
 	}
 	global.coinTextScale = max(global.coinTextScale * .95, 1);
-	draw_sprite(sCoin,0,120 + coinOffset,9);
-	draw_text_transformed(158,4,"*" + string(global.coins), global.coinTextScale, global.coinTextScale,0);
+	draw_sprite(sCoin,0,216 + coinOffset,9);
+	draw_text_transformed(254,4,"*" + string(global.coins), global.coinTextScale, global.coinTextScale,0);
 }
