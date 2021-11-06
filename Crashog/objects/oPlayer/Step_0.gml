@@ -75,6 +75,24 @@ if(isDashing)
 		{
 			audio_play_sound(snd_Charge,5,false);
 		}
+		// Display targeting arrow
+		if(dashtime >= maxdashtime * 0.6)
+		{
+			if(xdir == 0)
+			{
+				xdir = image_xscale;	
+			}
+			if(xdir = 1)
+			{
+				if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
+				if(!instance_exists(oLeftArrow)) instance_create_layer(x+8,y+8,"Instances",oLeftArrow);
+			}
+			if(xdir = -1)
+			{
+				if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+				if(!instance_exists(oRightArrow)) instance_create_layer(x-8,y+8,"Instances",oRightArrow);
+			}	
+		}
 		// Allow player to change initial xdir
 		if(key_left) xdir = -1;
 		if(key_right) xdir = 1;
@@ -86,8 +104,16 @@ if(isDashing)
 		canDash = true;	
 	}
 	// If dash key is released or maximum charge is reached, start dash
-	if((key_dash_released || dashtime = maxdashtime) && !dashInit)
+	if((key_dash_released || dashtime == maxdashtime) && !dashInit)
 	{
+		// Delete targeting arrows
+		if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
+		if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+		// Make dash only light or heavy
+		if(dashtime != maxdashtime)
+		{
+			dashtime = 0.15;
+		}
 		dashInit = true;
 		ydir = 1;
 		if(xdir == 0)
