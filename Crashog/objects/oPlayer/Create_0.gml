@@ -12,6 +12,7 @@ currentdashtime = 0;
 dashtime = 0.1;
 maxdashtime = 0.3;
 canJump = true;
+jumpBuffer = 0;
 airborne = false;
 canDash = true;
 isDashing = false;

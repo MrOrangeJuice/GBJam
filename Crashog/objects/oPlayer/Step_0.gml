@@ -226,6 +226,9 @@ else
 		canDash = false;
 	}
 	
+	// Decrement jump buffer
+	jumpBuffer--;
+	
 	// Check if player is airborne
 	if(!place_meeting(x, y + 1, oWall))
 	{
@@ -234,10 +237,11 @@ else
 	else
 	{
 		airborne = false;	
+		jumpBuffer = 5;
 	}
 
 	// Jump
-	if(place_meeting(x, y + 1, oWall)) && (key_jump) && (canJump)
+	if((key_jump) && (canJump) && (jumpBuffer > 0))
 	{
 		vsp = -3;
 		canJump = false;
