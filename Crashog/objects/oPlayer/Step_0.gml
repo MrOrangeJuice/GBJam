@@ -84,13 +84,13 @@ if(isDashing)
 			}
 			if(xdir = 1)
 			{
-				if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
-				if(!instance_exists(oLeftArrow)) instance_create_layer(x+8,y+8,"Instances",oLeftArrow);
+				if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+				if(!instance_exists(oRightArrow)) instance_create_layer(x+8,y+8,"Instances",oRightArrow);
 			}
 			if(xdir = -1)
 			{
-				if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
-				if(!instance_exists(oRightArrow)) instance_create_layer(x-8,y+8,"Instances",oRightArrow);
+				if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
+				if(!instance_exists(oLeftArrow)) instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
 			}	
 		}
 		// Allow player to change initial xdir

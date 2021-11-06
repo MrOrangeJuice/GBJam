@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sArrowDiagonalLeft",
-    "path": "sprites/sArrowDiagonalLeft/sArrowDiagonalLeft.yy",
+    "name": "sArrowDiagonalRight",
+    "path": "sprites/sArrowDiagonalRight/sArrowDiagonalRight.yy",
   },
   "solid": false,
   "visible": true,
