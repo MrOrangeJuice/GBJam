@@ -8,16 +8,18 @@ if (key_up) || (key_down) ||  (key_select)
 	controller = 0;
 }
 
-if ((gamepad_axis_value(0,gp_axislv) < -0.4 && !analogUpPrev) || gamepad_button_check_pressed(0,gp_padu) || gamepad_axis_value(4,gp_axislv) < -0.4 || gamepad_button_check_pressed(4,gp_padu))
+if ((gamepad_axis_value(0,gp_axislv) < -0.4 && analogUpPrev == false) || gamepad_button_check_pressed(0,gp_padu)/* || gamepad_axis_value(4,gp_axislv) < -0.4*/ || gamepad_button_check_pressed(4,gp_padu))
 {
 	key_up = 1;
 	controller = 1;
+	analogUpPrev = true;
 }
 
-if ((gamepad_axis_value(0,gp_axislv) > 0.4 && !analogDownPrev) || gamepad_button_check_pressed(0,gp_padd) || gamepad_axis_value(4,gp_axislv) > 0.4 || gamepad_button_check_pressed(4,gp_padd))
+if ((gamepad_axis_value(0,gp_axislv) > 0.4 && analogDownPrev == false) || gamepad_button_check_pressed(0,gp_padd)/* || gamepad_axis_value(4,gp_axislv) > 0.4*/ || gamepad_button_check_pressed(4,gp_padd))
 {
 	key_down = 1;
 	controller = 1;
+	analogDownPrev = true;
 }
 
 if (gamepad_button_check_pressed(0,gp_face1) || gamepad_button_check_pressed(4,gp_face1))
@@ -66,7 +68,8 @@ if(key_select)
 image_index = currentItem;
 
 // Record analog inputs for this frame
-if(gamepad_axis_value(0,gp_axislv) < -0.4)
+
+if(gamepad_axis_value(0,gp_axislv) < -0.4 || gamepad_axis_value(4,gp_axislv) < -0.4)
 {
 	analogUpPrev = true;	
 }
@@ -75,7 +78,8 @@ else
 	analogUpPrev = false;	
 }
 
-if(gamepad_axis_value(0,gp_axislv) > 0.4)
+
+if(gamepad_axis_value(4,gp_axislv) > 0.4 || gamepad_axis_value(4,gp_axislv) > 0.4)
 {
 	analogDownPrev = true;	
 }
