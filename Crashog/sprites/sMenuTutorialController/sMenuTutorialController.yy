@@ -10,7 +10,7 @@
   "bbox_left": 1,
   "bbox_right": 30,
   "bbox_top": 1,
-  "bbox_bottom": 26,
+  "bbox_bottom": 28,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMenuTutorial","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},"resourceVersion":"1.0","name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMenuTutorialController","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},"resourceVersion":"1.0","name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMenuTutorial","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},
+    "spriteId": {"name":"sMenuTutorialController","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f4e6080e-f7a6-4c54-9b71-3676bb3e1f52","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6d2b7c37-e328-4ee4-bf4c-197596fd2a78","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMenuTutorial","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},
+    "parent": {"name":"sMenuTutorialController","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},
     "resourceVersion": "1.3",
-    "name": "sMenuTutorial",
+    "name": "sMenuTutorialController",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMenuTutorial",
+  "name": "sMenuTutorialController",
   "tags": [],
   "resourceType": "GMSprite",
 }
