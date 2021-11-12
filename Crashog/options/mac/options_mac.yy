@@ -1,5 +1,5 @@
 {
-  "option_mac_display_name": "Created with GameMaker Studio 2",
+  "option_mac_display_name": "Crashog",
   "option_mac_app_id": "com.company.game",
   "option_mac_version": "1.0.0.0",
   "option_mac_output_dir": "~/gamemakerstudio2",
@@ -12,7 +12,7 @@
   "option_mac_menu_dock": false,
   "option_mac_display_cursor": true,
   "option_mac_start_fullscreen": false,
-  "option_mac_allow_fullscreen": false,
+  "option_mac_allow_fullscreen": true,
   "option_mac_interpolate_pixels": false,
   "option_mac_vsync": false,
   "option_mac_resize_window": false,
