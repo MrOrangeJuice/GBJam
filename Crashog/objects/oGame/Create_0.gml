@@ -7,3 +7,4 @@ global.coinTextScale = 1;
 global.time = 0;
 global.controller = 0;
 global.paused = false;
+pauseOption = 0;

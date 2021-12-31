@@ -30,3 +30,9 @@ if(room != rTitle && room != rResults)
 	draw_sprite(sCoin,0,216 + coinOffset,9);
 	draw_text_transformed(254,4,"*" + string(global.coins), global.coinTextScale, global.coinTextScale,0);
 }
+
+// Draw Pause Menu
+if(global.paused)
+{
+	draw_sprite(sPauseMenu,pauseOption,80,40);
+}

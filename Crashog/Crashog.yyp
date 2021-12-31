@@ -26,6 +26,7 @@
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":23,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oRightArrow","path":"objects/oRightArrow/oRightArrow.yy",},"order":19,},
+    {"id":{"name":"sPauseMenu","path":"sprites/sPauseMenu/sPauseMenu.yy",},"order":53,},
     {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"order":15,},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},"order":14,},
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},"order":4,},
