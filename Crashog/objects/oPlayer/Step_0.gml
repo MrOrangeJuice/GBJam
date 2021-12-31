@@ -10,50 +10,50 @@ key_dash_released = keyboard_check_released(vk_lshift) || keyboard_check_release
 
 if (key_left) || (key_right) || (key_jump) || (key_dash)
 {
-	controller = 0;
+	global.controller = 0;
 }
 
 // Gamepad input
 if (gamepad_axis_value(0,gp_axislh) < -0.2 || gamepad_button_check(0,gp_padl) || gamepad_axis_value(4,gp_axislh) < -0.2 || gamepad_button_check(4,gp_padl))
 {
 	key_left = 1;
-	controller = 1;
+	global.controller = 1;
 }
 
 if (gamepad_axis_value(0,gp_axislh) > 0.2 || gamepad_button_check(0,gp_padr) || gamepad_axis_value(4,gp_axislh) > 0.2 || gamepad_button_check(4,gp_padr))
 {
 	key_right = 1;
-	controller = 1;
+	global.controller = 1;
 }
 
 if (gamepad_axis_value(0,gp_axislv) > 0.4 || gamepad_button_check(0,gp_padd) || gamepad_axis_value(4,gp_axislv) > 0.4 || gamepad_button_check(4,gp_padd))
 {
 	key_down = 1;
-	controller = 1;
+	global.controller = 1;
 }
 
 if (gamepad_button_check(0,gp_face1) || gamepad_button_check(4,gp_face1))
 {
 	key_jump = 1;
-	controller = 1;
+	global.controller = 1;
 }
 
 if (gamepad_button_check_released(0,gp_face1) || gamepad_button_check_released(4,gp_face1))
 {
 	key_jump_released = 1;
-	controller = 1;
+	global.controller = 1;
 }
 
 if (gamepad_button_check(0,gp_face3) || gamepad_button_check(0,gp_face2) || gamepad_button_check(4,gp_face3) || gamepad_button_check(4,gp_face2))
 {
 	key_dash = 1;
-	controller = 1;
+	global.controller = 1;
 }
 
 if (gamepad_button_check_released(0,gp_face3) || gamepad_button_check_released(0,gp_face2) || gamepad_button_check_released(4,gp_face3) || gamepad_button_check_released(4,gp_face2))
 {
 	key_dash_released = 1;
-	controller = 1;
+	global.controller = 1;
 }
 
 if(isDashing)
