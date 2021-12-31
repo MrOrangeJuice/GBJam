@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_MenuSelect.wav",
-  "duration": 0.732721,
+  "soundFile": "snd_PauseIn.wav",
+  "duration": 0.520272,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_MenuSelect",
+  "name": "snd_PauseIn",
   "tags": [],
   "resourceType": "GMSound",
 }
