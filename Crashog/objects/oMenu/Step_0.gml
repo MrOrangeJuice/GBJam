@@ -15,7 +15,7 @@ if ((gamepad_axis_value(0,gp_axislv) < -0.4 && analogUpPrev == false) || gamepad
 	analogUpPrev = true;
 }
 
-if ((gamepad_axis_value(0,gp_axislv) > 0.4 && analogDownPrev == false) || gamepad_button_check_pressed(0,gp_padd) || gamepad_axis_value(4,gp_axislv) > 0.4 || (gamepad_button_check_pressed(4,gp_padd) && analogDownPrevD == false))
+if ((gamepad_axis_value(0,gp_axislv) > 0.4 && analogDownPrev == false) || gamepad_button_check_pressed(0,gp_padd) || (gamepad_axis_value(4,gp_axislv) > 0.4 && analogDownPrevD == false) || gamepad_button_check_pressed(4,gp_padd))
 {
 	key_down = 1;
 	global.controller = 1;

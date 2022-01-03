@@ -5,3 +5,10 @@ if(instance_exists(oPlayer))
 	global.lastCheckpointX = oPlayer.x;
 	global.lastCheckpointY = oPlayer.y;
 }
+
+if(room == rTitle)
+{
+	// Reset pause menu
+	pauseOption = 0;
+	global.paused = false;		
+}

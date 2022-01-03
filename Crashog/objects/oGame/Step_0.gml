@@ -19,7 +19,7 @@ if ((gamepad_axis_value(0,gp_axislv) < -0.4 && analogUpPrev == false) || gamepad
 	analogUpPrev = true;
 }
 
-if ((gamepad_axis_value(0,gp_axislv) > 0.4 && analogDownPrev == false) || gamepad_button_check_pressed(0,gp_padd) || gamepad_axis_value(4,gp_axislv) > 0.4 || (gamepad_button_check_pressed(4,gp_padd) && analogDownPrevD == false))
+if ((gamepad_axis_value(0,gp_axislv) > 0.4 && analogDownPrev == false) || gamepad_button_check_pressed(0,gp_padd) || (gamepad_axis_value(4,gp_axislv) > 0.4 && analogDownPrevD == false) || gamepad_button_check_pressed(4,gp_padd))
 {
 	key_down = 1;
 	global.controller = 1;
@@ -57,7 +57,88 @@ if(key_pause)
 	}
 }
 
-if(room != rResults)
+if(global.paused)
+{
+	if(key_up)
+	{
+		audio_play_sound(snd_MenuMove,5,false);
+		pauseOption--;
+		if(pauseOption <= -1)
+		{
+			pauseOption = 2;	
+		}
+	}
+
+	if(key_down)
+	{
+		audio_play_sound(snd_MenuMove,5,false);
+		pauseOption++;
+		if(pauseOption >= 3)
+		{
+			pauseOption = 0;	
+		}
+	}
+	
+	if(key_select)
+	{
+		audio_play_sound(snd_MenuSelect,5,false);
+		switch(pauseOption)
+		{
+			case 0:
+				audio_play_sound(snd_PauseOut,5,false);
+				// Reset pause menu
+				pauseOption = 0;
+				global.paused = false;	
+				break;
+			case 1:
+				window_set_fullscreen(!window_get_fullscreen());
+				break;
+			case 2:
+				SlideTransition(TRANS_MODE.GOTO, rTitle);
+				global.time = 0;
+				break;
+		}
+	}
+}
+
+// Record analog inputs for this frame
+if(gamepad_axis_value(0,gp_axislv) < -0.4)
+{
+	analogUpPrev = true;	
+}
+else
+{
+	analogUpPrev = false;	
+}
+
+if(gamepad_axis_value(0,gp_axislv) > 0.4)
+{
+	analogDownPrev = true;	
+}
+else
+{
+	analogDownPrev = false;	
+}
+
+if(gamepad_axis_value(4,gp_axislv) < -0.4)
+{
+	analogUpPrevD = true;	
+}
+else
+{
+	analogUpPrevD = false;	
+}
+
+if(gamepad_axis_value(4,gp_axislv) > 0.4)
+{
+	analogDownPrevD = true;	
+}
+else
+{
+	analogDownPrevD = false;	
+}
+
+if(room != rResults && room != rTitle && !global.paused)
 {
 	global.time++;	
 }
