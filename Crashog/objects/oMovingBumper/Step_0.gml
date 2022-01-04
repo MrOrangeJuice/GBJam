@@ -1,18 +1,21 @@
 /// @description Move
 event_inherited();
 
-if(!vertical) 
+if(!global.paused)
 {
-	x += moveSpeed * dir;
-}
-else
-{
-	y += moveSpeed * dir;	
-}
+	if(!vertical) 
+	{
+		x += moveSpeed * dir;
+	}
+	else
+	{
+		y += moveSpeed * dir;	
+	}
 
-totalMoved += moveSpeed * dir;
-// If out of range, switch direction
-if(totalMoved >= range || totalMoved <= -range)
-{
-	dir *= -1;	
+	totalMoved += moveSpeed * dir;
+	// If out of range, switch direction
+	if(totalMoved >= range || totalMoved <= -range)
+	{
+		dir *= -1;	
+	}
 }
