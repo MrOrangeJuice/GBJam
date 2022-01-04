@@ -99,7 +99,6 @@ if(global.paused)
 				break;
 			case 2:
 				SlideTransition(TRANS_MODE.GOTO, rTitle);
-				global.time = 0;
 				break;
 		}
 	}
