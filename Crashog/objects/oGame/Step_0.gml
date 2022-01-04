@@ -87,6 +87,10 @@ if(global.paused)
 			case 0:
 				audio_play_sound(snd_PauseOut,5,false);
 				// Reset pause menu
+				if(instance_exists(oPlayer))
+				{
+					oPlayer.canJump = false;	
+				}
 				pauseOption = 0;
 				global.paused = false;	
 				break;
