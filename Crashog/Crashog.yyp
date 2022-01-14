@@ -53,6 +53,7 @@
     {"id":{"name":"sBumperHit","path":"sprites/sBumperHit/sBumperHit.yy",},"order":25,},
     {"id":{"name":"oMenuTutorial","path":"objects/oMenuTutorial/oMenuTutorial.yy",},"order":24,},
     {"id":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"order":52,},
+    {"id":{"name":"rMultiplayer","path":"rooms/rMultiplayer/rMultiplayer.yy",},"order":5,},
     {"id":{"name":"rResults","path":"rooms/rResults/rResults.yy",},"order":4,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":19,},
     {"id":{"name":"sCheckpointActive","path":"sprites/sCheckpointActive/sCheckpointActive.yy",},"order":16,},
@@ -134,6 +135,7 @@
     {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"roomId":{"name":"rResults","path":"rooms/rResults/rResults.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
+    {"roomId":{"name":"rMultiplayer","path":"rooms/rMultiplayer/rMultiplayer.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
