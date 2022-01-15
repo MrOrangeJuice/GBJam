@@ -90,6 +90,7 @@
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
     {"id":{"name":"sPlayerJumpUp","path":"sprites/sPlayerJumpUp/sPlayerJumpUp.yy",},"order":7,},
     {"id":{"name":"sPlayerBall","path":"sprites/sPlayerBall/sPlayerBall.yy",},"order":0,},
+    {"id":{"name":"oMultiPlayerDeath","path":"objects/oMultiPlayerDeath/oMultiPlayerDeath.yy",},"order":28,},
     {"id":{"name":"sArrowDiagonalRight","path":"sprites/sArrowDiagonalRight/sArrowDiagonalRight.yy",},"order":10,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},

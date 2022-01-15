@@ -161,6 +161,10 @@ if(!global.paused)
 			{
 				dashtime = 0.15;
 			}
+			else
+			{
+				isHeavyDashing = true;	
+			}
 			dashInit = true;
 			ydir = 1;
 			if(xdir == 0)
@@ -178,6 +182,28 @@ if(!global.paused)
 				audio_play_sound(snd_Collision,5,false);
 				ScreenShake(1,5);
 			}
+			otherPlayer = instance_place(x,y + (vdashsp * ydir),oMultiplayer);
+			if(otherPlayer)
+			{
+				if(isHeavyDashing)
+				{
+					if(otherPlayer.isHeavyDashing)
+					{
+						ydir *= -1;
+						audio_play_sound(snd_Collision,5,false);
+						ScreenShake(1,5);
+					}
+				}
+				else if(isDashing && !isHeavyDashing)
+				{
+					if(otherPlayer.isDashing && !otherPlayer.isHeavyDashing)	
+					{
+						ydir *= -1;
+						audio_play_sound(snd_Collision,5,false);
+						ScreenShake(1,5);
+					}
+				}
+			}
 			bumper = instance_place(x,y + (vdashsp * ydir),oBumper)
 			if (bumper){
 				ydir *= -1;
@@ -193,6 +219,28 @@ if(!global.paused)
 				xdir *= -1;
 				audio_play_sound(snd_Collision,5,false);
 				ScreenShake(1,5);
+			}
+			otherPlayer = instance_place(x + (hdashsp * xdir),y,oMultiplayer);
+			if(otherPlayer)
+			{
+				if(isHeavyDashing)
+				{
+					if(otherPlayer.isHeavyDashing)
+					{
+						xdir *= -1;
+						audio_play_sound(snd_Collision,5,false);
+						ScreenShake(1,5);
+					}
+				}
+				else if(isDashing && !isHeavyDashing)
+				{
+					if(otherPlayer.isDashing && !otherPlayer.isHeavyDashing)	
+					{
+						xdir *= -1;
+						audio_play_sound(snd_Collision,5,false);
+						ScreenShake(1,5);
+					}
+				}
 			}
 			bumper = instance_place(x + (hdashsp * xdir), y, oBumper);
 			if(bumper && !bumperHit) {
@@ -237,6 +285,7 @@ if(!global.paused)
 			{
 				// End dash
 				isDashing = false;
+				isHeavyDashing = false;
 				dashInit = false;
 				dashtime = 0.1;
 				currentdashtime = 0;
