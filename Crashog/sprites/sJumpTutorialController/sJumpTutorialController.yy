@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"LayerId":{"name":"82280b05-c00a-439f-be78-e1a1f04ee4b7","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sJumpTutorialController","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},"resourceVersion":"1.0","name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Tutorials",
+    "path": "folders/Sprites/Tutorials.yy",
   },
   "resourceVersion": "1.0",
   "name": "sJumpTutorialController",

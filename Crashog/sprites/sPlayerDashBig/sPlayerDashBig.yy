@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Green",
+    "path": "folders/Sprites/Players/Green.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerDashBig",

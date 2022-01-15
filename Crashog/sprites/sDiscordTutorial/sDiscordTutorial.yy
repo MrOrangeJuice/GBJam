@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Tutorials",
+    "path": "folders/Sprites/Tutorials.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDiscordTutorial",

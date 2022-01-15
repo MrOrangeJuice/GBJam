@@ -65,6 +65,11 @@ if(key_select)
 	}
 }
 
+if(keyboard_check_pressed(vk_backspace))
+{
+	SlideTransition(TRANS_MODE.GOTO,rMultiplayer);	
+}
+
 image_index = currentItem;
 
 // Record analog inputs for this frame
