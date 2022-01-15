@@ -27,37 +27,37 @@ if(!global.paused)
 	else
 	{
 		// Gamepad input
-		if (gamepad_axis_value(controller,gp_axislh) < -0.2 || gamepad_button_check(0,gp_padl) || gamepad_axis_value(4,gp_axislh) < -0.2 || gamepad_button_check(4,gp_padl))
+		if (gamepad_axis_value(controller,gp_axislh) < -0.2 || gamepad_button_check(controller,gp_padl))
 		{
 			key_left = 1;
 		}
 
-		if (gamepad_axis_value(0,gp_axislh) > 0.2 || gamepad_button_check(0,gp_padr) || gamepad_axis_value(4,gp_axislh) > 0.2 || gamepad_button_check(4,gp_padr))
+		if (gamepad_axis_value(controller,gp_axislh) > 0.2 || gamepad_button_check(controller,gp_padr))
 		{
 			key_right = 1;
 		}
 
-		if (gamepad_axis_value(0,gp_axislv) > 0.4 || gamepad_button_check(0,gp_padd) || gamepad_axis_value(4,gp_axislv) > 0.4 || gamepad_button_check(4,gp_padd))
+		if (gamepad_axis_value(controller,gp_axislv) > 0.4 || gamepad_button_check(controller,gp_padd))
 		{
 			key_down = 1;
 		}
 
-		if (gamepad_button_check(0,gp_face1) || gamepad_button_check(4,gp_face1))
+		if (gamepad_button_check(controller,gp_face1))
 		{
 			key_jump = 1;
 		}
 
-		if (gamepad_button_check_released(0,gp_face1) || gamepad_button_check_released(4,gp_face1))
+		if (gamepad_button_check_released(controller,gp_face1))
 		{
 			key_jump_released = 1;
 		}
 
-		if (gamepad_button_check(0,gp_face3) || gamepad_button_check(0,gp_face2) || gamepad_button_check(4,gp_face3) || gamepad_button_check(4,gp_face2))
+		if (gamepad_button_check(controller,gp_face3) || gamepad_button_check(controller,gp_face2))
 		{
 			key_dash = 1;
 		}
 
-		if (gamepad_button_check_released(0,gp_face3) || gamepad_button_check_released(0,gp_face2) || gamepad_button_check_released(4,gp_face3) || gamepad_button_check_released(4,gp_face2))
+		if (gamepad_button_check_released(controller,gp_face3) || gamepad_button_check_released(controller,gp_face2))
 		{
 			key_dash_released = 1;
 		}
@@ -92,18 +92,58 @@ if(!global.paused)
 				if(xdir = 1)
 				{
 					if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
-					if(!instance_exists(oRightArrow)) instance_create_layer(x+8,y+8,"Instances",oRightArrow);
+					if(!instance_exists(oRightArrow)) rightArrow = instance_create_layer(x+8,y+8,"Instances",oRightArrow);
+					switch(player)
+					{
+						case 0:
+							rightArrow.color = global.p1skin;
+							break;
+						case 1:
+							rightArrow.color = global.p2skin;
+							break;
+					}
 				}
 				if(xdir = -1)
 				{
 					if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
-					if(!instance_exists(oLeftArrow)) instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
+					if(!instance_exists(oLeftArrow)) leftArrow = instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
+					switch(player)
+					{
+						case 0:
+							leftArrow.color = global.p1skin;
+							break;
+						case 1:
+							leftArrow.color = global.p2skin;
+							break;
+					}
 				}	
 			}
 			// Allow player to change initial xdir
 			if(key_left) xdir = -1;
 			if(key_right) xdir = 1;
-			sprite_index = sPlayerBall;
+			switch(player)
+			{
+				case 0:
+					switch(global.p1skin)
+					{
+						case 0:
+							sprite_index = sPlayerBall;
+							break;
+						case 1:
+							sprite_index = sPlayerBallBlue;
+					}
+					break;
+				case 1:
+					switch(global.p2skin)
+					{
+						case 0:
+							sprite_index = sPlayerBall;
+							break;
+						case 1:
+							sprite_index = sPlayerBallBlue;
+					}
+					break;
+			}
 		}
 		// If dash key is released, set can dash back to true for when you're out of the dash
 		if(key_dash_released)
@@ -164,7 +204,29 @@ if(!global.paused)
 			}
 		
 			// Animation
-			sprite_index = sPlayerDash;
+			switch(player)
+			{
+				case 0:
+					switch(global.p1skin)
+					{
+						case 0:
+							sprite_index = sPlayerDash;
+							break;
+						case 1:
+							sprite_index = sPlayerDashBlue;
+					}
+					break;
+				case 1:
+					switch(global.p2skin)
+					{
+						case 0:
+							sprite_index = sPlayerDash;
+							break;
+						case 1:
+							sprite_index = sPlayerDashBlue;
+					}
+					break;
+			}
 			image_xscale = xdir;
 			image_yscale = ydir;
 		
@@ -317,18 +379,90 @@ if(!global.paused)
 		image_yscale = 1;
 		if(airborne)
 		{
-			if (vsp <= 0) sprite_index = sPlayerJumpUp;
-			if (vsp > 0) sprite_index = sPlayerJumpDown;
+			switch(player)
+			{
+				case 0:
+					switch(global.p1skin)
+					{
+						case 0:
+							if (vsp <= 0) sprite_index = sPlayerJumpUp;
+							if (vsp > 0) sprite_index = sPlayerJumpDown;
+							break;
+						case 1:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpBlue;
+							if (vsp > 0) sprite_index = sPlayerJumpDownBlue;
+							break;
+					}
+					break;
+				case 1:
+					switch(global.p2skin)
+					{
+						case 0:
+							if (vsp <= 0) sprite_index = sPlayerJumpUp;
+							if (vsp > 0) sprite_index = sPlayerJumpDown;
+							break;
+						case 1:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpBlue;
+							if (vsp > 0) sprite_index = sPlayerJumpDownBlue;
+							break;
+					}
+					break;
+			}
 		}
 		else
 		{
-			if (hsp != 0)
+			switch(player)
 			{
-				sprite_index = sPlayerRun;
-			}
-			else
-			{
-				sprite_index = sPlayerIdle;
+				case 0:
+					switch(global.p1skin)
+					{
+						case 0:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRun;
+							}
+							else
+							{
+								sprite_index = sPlayerIdle;
+							}
+							break;
+						case 1:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunBlue;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleBlue;
+							}
+							break;
+					}
+					break;
+				case 1:
+					switch(global.p2skin)
+					{
+						case 0:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRun;
+							}
+							else
+							{
+								sprite_index = sPlayerIdle;
+							}
+							break;
+						case 1:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunBlue;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleBlue;
+							}
+							break;
+					}
+					break;
 			}
 		}
 	}

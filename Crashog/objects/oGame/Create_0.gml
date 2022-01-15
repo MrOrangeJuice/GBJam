@@ -12,3 +12,9 @@ analogUpPrev = false;
 analogDownPrev = false;
 analogUpPrevD = false;
 analogDownPrevD = false;
+
+// Multiplayer
+global.p1skin = 0;
+global.p2skin = 1;
+global.p3skin = 0;
+global.p4skin = 0;

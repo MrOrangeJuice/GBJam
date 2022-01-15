@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Tutorials",
-    "path": "folders/Sprites/Tutorials.yy",
+    "name": "Green",
+    "path": "folders/Sprites/Players/Green.yy",
   },
   "resourceVersion": "1.0",
   "name": "sArrowDiagonalLeft",
