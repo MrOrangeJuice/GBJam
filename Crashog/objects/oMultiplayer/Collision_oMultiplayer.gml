@@ -14,6 +14,9 @@ if(other.isHeavyDashing)
 				death.color = global.p2skin;
 				break;
 		}
+		newPlayer = instance_create_layer(initX,initY,"Instances",oMultiplayer);
+		newPlayer.player = player;
+		newPlayer.controller = controller;
 		instance_destroy();
 	}
 }
@@ -31,6 +34,9 @@ else if(other.isDashing)
 				death.color = global.p2skin;
 				break;
 		}
+		newPlayer = instance_create_layer(initX,initY,"Instances",oMultiplayer);
+		newPlayer.player = player;
+		newPlayer.controller = controller;
 		instance_destroy();
 	}
 }

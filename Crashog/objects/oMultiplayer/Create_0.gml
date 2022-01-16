@@ -19,3 +19,5 @@ isDashing = false;
 isHeavyDashing = false;
 dashInit = false;
 bumperHit = false;
+initX = x;
+initY = y;

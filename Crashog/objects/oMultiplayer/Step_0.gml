@@ -93,29 +93,33 @@ if(!global.paused)
 				{
 					if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
 					if(!instance_exists(oRightArrow)) rightArrow = instance_create_layer(x+8,y+8,"Instances",oRightArrow);
+					/*
 					switch(player)
 					{
 						case 0:
-							rightArrow.color = global.p1skin;
+							if(instance_exists(rightArrow)) rightArrow.color = global.p1skin;
 							break;
 						case 1:
-							rightArrow.color = global.p2skin;
+							if(instance_exists(rightArrow)) rightArrow.color = global.p2skin;
 							break;
 					}
+					*/
 				}
 				if(xdir = -1)
 				{
 					if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
 					if(!instance_exists(oLeftArrow)) leftArrow = instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
+					/*
 					switch(player)
 					{
 						case 0:
-							leftArrow.color = global.p1skin;
+							if(instance_exists(leftArrow)) leftArrow.color = global.p1skin;
 							break;
 						case 1:
-							leftArrow.color = global.p2skin;
+							if(instance_exists(leftArrow)) leftArrow.color = global.p2skin;
 							break;
 					}
+					*/
 				}	
 			}
 			// Allow player to change initial xdir

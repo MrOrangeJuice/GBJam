@@ -65,7 +65,7 @@ if(key_select)
 	}
 }
 
-if(keyboard_check_pressed(vk_backspace))
+if(keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_shoulderrb))
 {
 	SlideTransition(TRANS_MODE.GOTO,rMultiplayer);	
 }
