@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sArrowDiagonalRight",
-    "path": "sprites/sArrowDiagonalRight/sArrowDiagonalRight.yy",
+    "name": "sArrowDiagonalLeftBlue",
+    "path": "sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oRightArrow",
+  "name": "oLeftArrowBlue",
   "tags": [],
   "resourceType": "GMObject",
 }

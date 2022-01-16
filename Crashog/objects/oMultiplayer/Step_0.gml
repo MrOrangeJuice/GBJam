@@ -91,35 +91,67 @@ if(!global.paused)
 				}
 				if(xdir = 1)
 				{
-					if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
-					if(!instance_exists(oRightArrow)) rightArrow = instance_create_layer(x+8,y+8,"Instances",oRightArrow);
-					/*
 					switch(player)
 					{
 						case 0:
-							if(instance_exists(rightArrow)) rightArrow.color = global.p1skin;
+							switch(global.p1skin)
+							{
+								case 0:
+									if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+									if(!instance_exists(oRightArrow)) instance_create_layer(x+8,y+8,"Instances",oRightArrow);
+									break;
+								case 1:
+									if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
+									if(!instance_exists(oRightArrowBlue)) instance_create_layer(x+8,y+8,"Instances",oRightArrowBlue);
+									break;
+							}
 							break;
 						case 1:
-							if(instance_exists(rightArrow)) rightArrow.color = global.p2skin;
+							switch(global.p2skin)
+							{
+								case 0:
+									if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+									if(!instance_exists(oRightArrow)) instance_create_layer(x+8,y+8,"Instances",oRightArrow);
+									break;
+								case 1:
+									if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
+									if(!instance_exists(oRightArrowBlue)) instance_create_layer(x+8,y+8,"Instances",oRightArrowBlue);
+									break;
+							}
 							break;
 					}
-					*/
 				}
 				if(xdir = -1)
 				{
-					if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
-					if(!instance_exists(oLeftArrow)) leftArrow = instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
-					/*
 					switch(player)
 					{
 						case 0:
-							if(instance_exists(leftArrow)) leftArrow.color = global.p1skin;
+							switch(global.p1skin)
+							{
+								case 0:
+									if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
+									if(!instance_exists(oLeftArrow)) instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
+									break;
+								case 1:
+									if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
+									if(!instance_exists(oLeftArrowBlue)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowBlue);
+									break;
+							}
 							break;
 						case 1:
-							if(instance_exists(leftArrow)) leftArrow.color = global.p2skin;
+							switch(global.p2skin)
+							{
+								case 0:
+									if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
+									if(!instance_exists(oLeftArrow)) instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
+									break;
+								case 1:
+									if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
+									if(!instance_exists(oLeftArrowBlue)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowBlue);
+									break;
+							}
 							break;
 					}
-					*/
 				}	
 			}
 			// Allow player to change initial xdir
@@ -160,6 +192,8 @@ if(!global.paused)
 			// Delete targeting arrows
 			if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
 			if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+			if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
+			if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
 			// Make dash only light or heavy
 			if(dashtime != maxdashtime)
 			{
