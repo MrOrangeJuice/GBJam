@@ -22,6 +22,7 @@
     {"id":{"name":"sMenuTutorialController","path":"sprites/sMenuTutorialController/sMenuTutorialController.yy",},"order":12,},
     {"id":{"name":"oEndDoor","path":"objects/oEndDoor/oEndDoor.yy",},"order":14,},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":20,},
+    {"id":{"name":"oMultiplayerCamera","path":"objects/oMultiplayerCamera/oMultiplayerCamera.yy",},"order":31,},
     {"id":{"name":"sArrowDiagonalLeft","path":"sprites/sArrowDiagonalLeft/sArrowDiagonalLeft.yy",},"order":9,},
     {"id":{"name":"sTitleLayer","path":"sprites/sTitleLayer/sTitleLayer.yy",},"order":29,},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":9,},
