@@ -104,6 +104,14 @@ if(!global.paused)
 									if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
 									if(!instance_exists(oRightArrowBlue)) instance_create_layer(x+8,y+8,"Instances",oRightArrowBlue);
 									break;
+								case 2:
+									if(instance_exists(oLeftArrowRed)) instance_destroy(oLeftArrowRed);
+									if(!instance_exists(oRightArrowRed)) instance_create_layer(x+8,y+8,"Instances",oRightArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oLeftArrowPurple)) instance_destroy(oLeftArrowPurple);
+									if(!instance_exists(oRightArrowPurple)) instance_create_layer(x+8,y+8,"Instances",oRightArrowPurple);
+									break;
 							}
 							break;
 						case 1:
@@ -116,6 +124,56 @@ if(!global.paused)
 								case 1:
 									if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
 									if(!instance_exists(oRightArrowBlue)) instance_create_layer(x+8,y+8,"Instances",oRightArrowBlue);
+									break;
+								case 2:
+									if(instance_exists(oLeftArrowRed)) instance_destroy(oLeftArrowRed);
+									if(!instance_exists(oRightArrowRed)) instance_create_layer(x+8,y+8,"Instances",oRightArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oLeftArrowPurple)) instance_destroy(oLeftArrowPurple);
+									if(!instance_exists(oRightArrowPurple)) instance_create_layer(x+8,y+8,"Instances",oRightArrowPurple);
+									break;
+							}
+							break;
+						case 2:
+							switch(global.p3skin)
+							{
+								case 0:
+									if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+									if(!instance_exists(oRightArrow)) instance_create_layer(x+8,y+8,"Instances",oRightArrow);
+									break;
+								case 1:
+									if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
+									if(!instance_exists(oRightArrowBlue)) instance_create_layer(x+8,y+8,"Instances",oRightArrowBlue);
+									break;
+								case 2:
+									if(instance_exists(oLeftArrowRed)) instance_destroy(oLeftArrowRed);
+									if(!instance_exists(oRightArrowRed)) instance_create_layer(x+8,y+8,"Instances",oRightArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oLeftArrowPurple)) instance_destroy(oLeftArrowPurple);
+									if(!instance_exists(oRightArrowPurple)) instance_create_layer(x+8,y+8,"Instances",oRightArrowPurple);
+									break;
+							}
+							break;
+						case 3:
+							switch(global.p4skin)
+							{
+								case 0:
+									if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
+									if(!instance_exists(oRightArrow)) instance_create_layer(x+8,y+8,"Instances",oRightArrow);
+									break;
+								case 1:
+									if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
+									if(!instance_exists(oRightArrowBlue)) instance_create_layer(x+8,y+8,"Instances",oRightArrowBlue);
+									break;
+								case 2:
+									if(instance_exists(oLeftArrowRed)) instance_destroy(oLeftArrowRed);
+									if(!instance_exists(oRightArrowRed)) instance_create_layer(x+8,y+8,"Instances",oRightArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oLeftArrowPurple)) instance_destroy(oLeftArrowPurple);
+									if(!instance_exists(oRightArrowPurple)) instance_create_layer(x+8,y+8,"Instances",oRightArrowPurple);
 									break;
 							}
 							break;
@@ -136,6 +194,15 @@ if(!global.paused)
 									if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
 									if(!instance_exists(oLeftArrowBlue)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowBlue);
 									break;
+								case 2:
+									if(instance_exists(oRightArrowRed)) instance_destroy(oRightArrowRed);
+									if(!instance_exists(oLeftArrowRed)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oRightArrowPurple)) instance_destroy(oRightArrowPurple);
+									if(!instance_exists(oLeftArrowPurple)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowPurple);
+									break;
+								
 							}
 							break;
 						case 1:
@@ -148,6 +215,56 @@ if(!global.paused)
 								case 1:
 									if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
 									if(!instance_exists(oLeftArrowBlue)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowBlue);
+									break;
+								case 2:
+									if(instance_exists(oRightArrowRed)) instance_destroy(oRightArrowRed);
+									if(!instance_exists(oLeftArrowRed)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oRightArrowPurple)) instance_destroy(oRightArrowPurple);
+									if(!instance_exists(oLeftArrowPurple)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowPurple);
+									break;
+							}
+							break;
+						case 2:
+							switch(global.p3skin)
+							{
+								case 0:
+									if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
+									if(!instance_exists(oLeftArrow)) instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
+									break;
+								case 1:
+									if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
+									if(!instance_exists(oLeftArrowBlue)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowBlue);
+									break;
+								case 2:
+									if(instance_exists(oRightArrowRed)) instance_destroy(oRightArrowRed);
+									if(!instance_exists(oLeftArrowRed)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oRightArrowPurple)) instance_destroy(oRightArrowPurple);
+									if(!instance_exists(oLeftArrowPurple)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowPurple);
+									break;
+							}
+							break;
+						case 3:
+							switch(global.p4skin)
+							{
+								case 0:
+									if(instance_exists(oRightArrow)) instance_destroy(oRightArrow);
+									if(!instance_exists(oLeftArrow)) instance_create_layer(x-8,y+8,"Instances",oLeftArrow);
+									break;
+								case 1:
+									if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
+									if(!instance_exists(oLeftArrowBlue)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowBlue);
+									break;
+								case 2:
+									if(instance_exists(oRightArrowRed)) instance_destroy(oRightArrowRed);
+									if(!instance_exists(oLeftArrowRed)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowRed);
+									break;
+								case 3:
+									if(instance_exists(oRightArrowPurple)) instance_destroy(oRightArrowPurple);
+									if(!instance_exists(oLeftArrowPurple)) instance_create_layer(x-8,y+8,"Instances",oLeftArrowPurple);
 									break;
 							}
 							break;
@@ -167,6 +284,13 @@ if(!global.paused)
 							break;
 						case 1:
 							sprite_index = sPlayerBallBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerBallRed;
+							break;
+						case 3:
+							sprite_index = sPlayerBallPurple;
+							break;
 					}
 					break;
 				case 1:
@@ -177,6 +301,47 @@ if(!global.paused)
 							break;
 						case 1:
 							sprite_index = sPlayerBallBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerBallRed;
+							break;
+						case 3:
+							sprite_index = sPlayerBallPurple;
+							break;
+					}
+					break;
+				case 2:
+					switch(global.p3skin)
+					{
+						case 0:
+							sprite_index = sPlayerBall;
+							break;
+						case 1:
+							sprite_index = sPlayerBallBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerBallRed;
+							break;
+						case 3:
+							sprite_index = sPlayerBallPurple;
+							break;
+					}
+					break;
+				case 3:
+					switch(global.p4skin)
+					{
+						case 0:
+							sprite_index = sPlayerBall;
+							break;
+						case 1:
+							sprite_index = sPlayerBallBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerBallRed;
+							break;
+						case 3:
+							sprite_index = sPlayerBallPurple;
+							break;
 					}
 					break;
 			}
@@ -194,6 +359,10 @@ if(!global.paused)
 			if(instance_exists(oLeftArrow)) instance_destroy(oLeftArrow);
 			if(instance_exists(oRightArrowBlue)) instance_destroy(oRightArrowBlue);
 			if(instance_exists(oLeftArrowBlue)) instance_destroy(oLeftArrowBlue);
+			if(instance_exists(oRightArrowRed)) instance_destroy(oRightArrowRed);
+			if(instance_exists(oLeftArrowRed)) instance_destroy(oLeftArrowRed);
+			if(instance_exists(oRightArrowPurple)) instance_destroy(oRightArrowPurple);
+			if(instance_exists(oLeftArrowPurple)) instance_destroy(oLeftArrowPurple);
 			// Make dash only light or heavy
 			if(dashtime != maxdashtime)
 			{
@@ -300,6 +469,13 @@ if(!global.paused)
 							break;
 						case 1:
 							sprite_index = sPlayerDashBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerDashRed;
+							break;
+						case 3:
+							sprite_index = sPlayerDashPurple;
+							break;
 					}
 					break;
 				case 1:
@@ -310,6 +486,47 @@ if(!global.paused)
 							break;
 						case 1:
 							sprite_index = sPlayerDashBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerDashRed;
+							break;
+						case 3:
+							sprite_index = sPlayerDashPurple;
+							break;
+					}
+					break;
+				case 2:
+					switch(global.p3skin)
+					{
+						case 0:
+							sprite_index = sPlayerDash;
+							break;
+						case 1:
+							sprite_index = sPlayerDashBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerDashRed;
+							break;
+						case 3:
+							sprite_index = sPlayerDashPurple;
+							break;
+					}
+					break;
+				case 3:
+					switch(global.p4skin)
+					{
+						case 0:
+							sprite_index = sPlayerDash;
+							break;
+						case 1:
+							sprite_index = sPlayerDashBlue;
+							break;
+						case 2:
+							sprite_index = sPlayerDashRed;
+							break;
+						case 3:
+							sprite_index = sPlayerDashPurple;
+							break;
 					}
 					break;
 			}
@@ -479,6 +696,14 @@ if(!global.paused)
 							if (vsp <= 0) sprite_index = sPlayerJumpUpBlue;
 							if (vsp > 0) sprite_index = sPlayerJumpDownBlue;
 							break;
+						case 2:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpRed;
+							if (vsp > 0) sprite_index = sPlayerJumpDownRed;
+							break;
+						case 3:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpPurple;
+							if (vsp > 0) sprite_index = sPlayerJumpDownPurple;
+							break;
 					}
 					break;
 				case 1:
@@ -491,6 +716,56 @@ if(!global.paused)
 						case 1:
 							if (vsp <= 0) sprite_index = sPlayerJumpUpBlue;
 							if (vsp > 0) sprite_index = sPlayerJumpDownBlue;
+							break;
+						case 2:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpRed;
+							if (vsp > 0) sprite_index = sPlayerJumpDownRed;
+							break;
+						case 3:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpPurple;
+							if (vsp > 0) sprite_index = sPlayerJumpDownPurple;
+							break;
+					}
+					break;
+				case 2:
+					switch(global.p3skin)
+					{
+						case 0:
+							if (vsp <= 0) sprite_index = sPlayerJumpUp;
+							if (vsp > 0) sprite_index = sPlayerJumpDown;
+							break;
+						case 1:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpBlue;
+							if (vsp > 0) sprite_index = sPlayerJumpDownBlue;
+							break;
+						case 2:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpRed;
+							if (vsp > 0) sprite_index = sPlayerJumpDownRed;
+							break;
+						case 3:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpPurple;
+							if (vsp > 0) sprite_index = sPlayerJumpDownPurple;
+							break;
+					}
+					break;
+				case 3:
+					switch(global.p4skin)
+					{
+						case 0:
+							if (vsp <= 0) sprite_index = sPlayerJumpUp;
+							if (vsp > 0) sprite_index = sPlayerJumpDown;
+							break;
+						case 1:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpBlue;
+							if (vsp > 0) sprite_index = sPlayerJumpDownBlue;
+							break;
+						case 2:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpRed;
+							if (vsp > 0) sprite_index = sPlayerJumpDownRed;
+							break;
+						case 3:
+							if (vsp <= 0) sprite_index = sPlayerJumpUpPurple;
+							if (vsp > 0) sprite_index = sPlayerJumpDownPurple;
 							break;
 					}
 					break;
@@ -523,6 +798,26 @@ if(!global.paused)
 								sprite_index = sPlayerIdleBlue;
 							}
 							break;
+						case 2:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunRed;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleRed;
+							}
+							break;
+						case 3:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunPurple;
+							}
+							else
+							{
+								sprite_index = sPlayerIdlePurple;
+							}
+							break;
 					}
 					break;
 				case 1:
@@ -546,6 +841,116 @@ if(!global.paused)
 							else
 							{
 								sprite_index = sPlayerIdleBlue;
+							}
+							break;
+						case 2:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunRed;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleRed;
+							}
+							break;
+						case 3:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunPurple;
+							}
+							else
+							{
+								sprite_index = sPlayerIdlePurple;
+							}
+							break;
+					}
+					break;
+				case 2:
+					switch(global.p3skin)
+					{
+						case 0:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRun;
+							}
+							else
+							{
+								sprite_index = sPlayerIdle;
+							}
+							break;
+						case 1:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunBlue;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleBlue;
+							}
+							break;
+						case 2:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunRed;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleRed;
+							}
+							break;
+						case 3:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunPurple;
+							}
+							else
+							{
+								sprite_index = sPlayerIdlePurple;
+							}
+							break;
+					}
+					break;
+				case 3:
+					switch(global.p4skin)
+					{
+						case 0:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRun;
+							}
+							else
+							{
+								sprite_index = sPlayerIdle;
+							}
+							break;
+						case 1:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunBlue;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleBlue;
+							}
+							break;
+						case 2:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunRed;
+							}
+							else
+							{
+								sprite_index = sPlayerIdleRed;
+							}
+							break;
+						case 3:
+							if (hsp != 0)
+							{
+								sprite_index = sPlayerRunPurple;
+							}
+							else
+							{
+								sprite_index = sPlayerIdlePurple;
 							}
 							break;
 					}

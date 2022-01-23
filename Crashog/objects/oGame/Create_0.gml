@@ -16,5 +16,5 @@ analogDownPrevD = false;
 // Multiplayer
 global.p1skin = 0;
 global.p2skin = 1;
-global.p3skin = 0;
-global.p4skin = 0;
+global.p3skin = 2;
+global.p4skin = 3;

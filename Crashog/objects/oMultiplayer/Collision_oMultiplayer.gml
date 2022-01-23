@@ -13,6 +13,12 @@ if(other.isHeavyDashing)
 			case 1:
 				death.color = global.p2skin;
 				break;
+			case 2:
+				death.color = global.p3skin;
+				break;
+			case 3:
+				death.color = global.p4skin;
+				break;
 		}
 		newPlayer = instance_create_layer(initX,initY,"Instances",oMultiplayer);
 		newPlayer.player = player;
@@ -32,6 +38,12 @@ else if(other.isDashing)
 				break;
 			case 1:
 				death.color = global.p2skin;
+				break;
+			case 2:
+				death.color = global.p3skin;
+				break;
+			case 3:
+				death.color = global.p4skin;
 				break;
 		}
 		newPlayer = instance_create_layer(initX,initY,"Instances",oMultiplayer);
