@@ -136,6 +136,7 @@
     {"id":{"name":"sPlayerJumpDownPurple","path":"sprites/sPlayerJumpDownPurple/sPlayerJumpDownPurple.yy",},"order":6,},
     {"id":{"name":"snd_RankA","path":"sounds/snd_RankA/snd_RankA.yy",},"order":14,},
     {"id":{"name":"sCharacter","path":"sprites/sCharacter/sCharacter.yy",},"order":39,},
+    {"id":{"name":"sCannon","path":"sprites/sCannon/sCannon.yy",},"order":60,},
     {"id":{"name":"oLeftArrowRed","path":"objects/oLeftArrowRed/oLeftArrowRed.yy",},"order":32,},
     {"id":{"name":"sCrashTutorial","path":"sprites/sCrashTutorial/sCrashTutorial.yy",},"order":0,},
     {"id":{"name":"snd_Coin","path":"sounds/snd_Coin/snd_Coin.yy",},"order":8,},
