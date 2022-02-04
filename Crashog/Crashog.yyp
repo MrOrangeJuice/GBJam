@@ -139,6 +139,7 @@
     {"id":{"name":"sPlayerDeathPurple","path":"sprites/sPlayerDeathPurple/sPlayerDeathPurple.yy",},"order":4,},
     {"id":{"name":"tTileset","path":"tilesets/tTileset/tTileset.yy",},"order":0,},
     {"id":{"name":"sPlayerIdleBig","path":"sprites/sPlayerIdleBig/sPlayerIdleBig.yy",},"order":5,},
+    {"id":{"name":"oPlayerCannonEnter","path":"objects/oPlayerCannonEnter/oPlayerCannonEnter.yy",},"order":40,},
     {"id":{"name":"sPlayerDashRed","path":"sprites/sPlayerDashRed/sPlayerDashRed.yy",},"order":4,},
     {"id":{"name":"sThumbnail2WideBig","path":"sprites/sThumbnail2WideBig/sThumbnail2WideBig.yy",},"order":43,},
     {"id":{"name":"oPlayerDeath","path":"objects/oPlayerDeath/oPlayerDeath.yy",},"order":7,},
