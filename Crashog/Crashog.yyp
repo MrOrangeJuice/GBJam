@@ -130,6 +130,7 @@
     {"id":{"name":"oMovingBumper","path":"objects/oMovingBumper/oMovingBumper.yy",},"order":11,},
     {"id":{"name":"sArrowDiagonalRightRed","path":"sprites/sArrowDiagonalRightRed/sArrowDiagonalRightRed.yy",},"order":3,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":4,},
+    {"id":{"name":"sHills","path":"sprites/sHills/sHills.yy",},"order":66,},
     {"id":{"name":"oMoveTutorial","path":"objects/oMoveTutorial/oMoveTutorial.yy",},"order":22,},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},"order":4,},
     {"id":{"name":"snd_Result","path":"sounds/snd_Result/snd_Result.yy",},"order":12,},

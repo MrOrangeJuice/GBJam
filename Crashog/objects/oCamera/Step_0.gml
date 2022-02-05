@@ -28,3 +28,9 @@ if (layer_exists("Clouds"))
 	layer_x("Clouds",x/8);
 	layer_y("Clouds",y/8);
 }
+
+if (layer_exists("Hills"))
+{
+	layer_x("Hills",x/4);
+	layer_y("Hills",y/4);
+}
