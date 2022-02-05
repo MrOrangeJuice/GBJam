@@ -31,6 +31,31 @@ if(room != rTitle && room != rResults && room != rMultiplayer)
 	draw_text_transformed(254,4,"*" + string(global.coins), global.coinTextScale, global.coinTextScale,0);
 }
 
+if(levelSplash)
+{
+	if(splashOffset != 0)
+	{
+		splashOffset -= 3;
+	}
+}
+else
+{
+	if(splashOffset != 48)
+	{
+		splashOffset += 3;	
+	}
+}
+
+if(room == rLevel1)
+{
+	draw_sprite(sLevelSplash1,0,display_get_gui_width()/2,24 - splashOffset);
+}
+if(room == rLevel2)
+{
+	draw_sprite(sLevelSplash2,0,display_get_gui_width()/2,24 - splashOffset);
+}
+
+
 // Draw Pause Menu
 if(global.paused)
 {

@@ -12,6 +12,8 @@ analogUpPrev = false;
 analogDownPrev = false;
 analogUpPrevD = false;
 analogDownPrevD = false;
+levelSplash = false;
+splashOffset = 48;
 
 // Multiplayer
 global.p1skin = 0;
