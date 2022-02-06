@@ -31,6 +31,6 @@ if (layer_exists("Clouds"))
 
 if (layer_exists("Hills"))
 {
-	layer_x("Hills",x/4);
-	layer_y("Hills",y/4);
+	layer_x("Hills",x/6);
+	layer_y("Hills",y/6 + 256);
 }
