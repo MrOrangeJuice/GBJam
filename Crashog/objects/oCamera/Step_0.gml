@@ -25,12 +25,12 @@ camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 // Parallax
 if (layer_exists("Clouds"))
 {
-	layer_x("Clouds",x/8);
-	layer_y("Clouds",y/8);
+	layer_x("Clouds",x/10);
+	layer_y("Clouds",y/10);
 }
 
 if (layer_exists("Hills"))
 {
-	layer_x("Hills",x/6);
-	layer_y("Hills",y/6 + 256);
+	layer_x("Hills",x/8);
+	//layer_y("Hills",y/8 + 320);
 }

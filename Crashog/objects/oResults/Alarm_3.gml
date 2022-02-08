@@ -2,7 +2,7 @@
 
 // Determine rank
 
-if(global.coins >= 566 && (global.time / room_speed) <= 90)
+if(global.coins >= 565 && (global.time / room_speed) <= 90)
 {
 	audio_play_sound(snd_RankS,5,false);
 	rank = "s";	
