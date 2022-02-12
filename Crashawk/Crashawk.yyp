@@ -44,6 +44,7 @@
     {"id":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"order":27,},
     {"id":{"name":"sPlayerBallPurple","path":"sprites/sPlayerBallPurple/sPlayerBallPurple.yy",},"order":2,},
     {"id":{"name":"sPauseMenu","path":"sprites/sPauseMenu/sPauseMenu.yy",},"order":53,},
+    {"id":{"name":"sPauseMenuGray","path":"sprites/sPauseMenuGray/sPauseMenuGray.yy",},"order":71,},
     {"id":{"name":"sPlayerJumpDownBlue","path":"sprites/sPlayerJumpDownBlue/sPlayerJumpDownBlue.yy",},"order":4,},
     {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"order":15,},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},"order":14,},

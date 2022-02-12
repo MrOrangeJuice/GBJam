@@ -30,25 +30,37 @@ else if(other.isDashing)
 {
 	if(!isDashing)
 	{
-		death = instance_create_layer(x,y,"Instances",oMultiPlayerDeath);	
+		death = instance_create_layer(x,y,"Instances",oMultiPlayerDeath);
+		newPlayerSpawn = true;
 		switch(player)
 		{
 			case 0:
 				death.color = global.p1skin;
+				global.p1lives--;
+				if(global.p1lives <= 0) newPlayerSpawn = false; 
 				break;
 			case 1:
 				death.color = global.p2skin;
+				global.p2lives--;
+				if(global.p2lives <= 0) newPlayerSpawn = false;
 				break;
 			case 2:
 				death.color = global.p3skin;
+				global.p3lives--;
+				if(global.p3lives <= 0) newPlayerSpawn = false;
 				break;
 			case 3:
 				death.color = global.p4skin;
+				global.p4lives--;
+				if(global.p4lives <= 0) newPlayerSpawn = false;
 				break;
 		}
-		newPlayer = instance_create_layer(initX,initY,"Instances",oMultiplayer);
-		newPlayer.player = player;
-		newPlayer.controller = controller;
+		if(newPlayerSpawn)
+		{
+			newPlayer = instance_create_layer(initX,initY,"Instances",oMultiplayer);
+			newPlayer.player = player;
+			newPlayer.controller = controller;
+		}
 		instance_destroy();
 	}
 }

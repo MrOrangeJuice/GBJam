@@ -55,9 +55,227 @@ if(room == rLevel2)
 	draw_sprite(sLevelSplash2,0,display_get_gui_width()/2,24 - splashOffset);
 }
 
+if(room == rMultiplayer)
+{
+	switch(global.p1skin)
+	{
+		case 0:
+			textOffset = 0;
+			if (global.p1lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($002704);
+			draw_sprite(sGreenHUD,0,32,136);
+			draw_sprite(sPortrait,0,18,136);
+			draw_sprite(sHeart,0,30+textOffset,136);
+			draw_text(52-textOffset,131,string(global.p1lives));
+			break;
+		case 1:
+			textOffset = 0;
+			if (global.p1lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($331800);
+			draw_sprite(sBlueHUD,0,32,136);
+			draw_sprite(sPortraitBlue,0,18,136);
+			draw_sprite(sHeartBlue,0,30+textOffset,136);
+			draw_text(52-textOffset,131,string(global.p1lives));
+			break;
+		case 2:
+			textOffset = 0;
+			if (global.p1lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($00002B);
+			draw_sprite(sRedHUD,0,32,136);
+			draw_sprite(sPortraitRed,0,18,136);
+			draw_sprite(sHeartRed,0,30+textOffset,136);
+			draw_text(52-textOffset,131,string(global.p1lives));
+			break;
+		case 3:
+			textOffset = 0;
+			if (global.p1lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($2C142D);
+			draw_sprite(sPurpleHUD,0,32,136);
+			draw_sprite(sPortraitPurple,0,18,136);
+			draw_sprite(sHeartPurple,0,30+textOffset,136);
+			draw_text(52-textOffset,131,string(global.p1lives));
+			break;
+	}
+	
+	switch(global.p2skin)
+	{
+		case 0:
+			textOffset = 0;
+			if (global.p2lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($002704);
+			draw_sprite(sGreenHUD,0,96,136);
+			draw_sprite(sPortrait,0,82,136);
+			draw_sprite(sHeart,0,94+textOffset,136);
+			draw_text(116-textOffset,131,string(global.p2lives));
+			break;
+		case 1:
+			textOffset = 0;
+			if (global.p2lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($331800);
+			draw_sprite(sBlueHUD,0,96,136);
+			draw_sprite(sPortraitBlue,0,82,136);
+			draw_sprite(sHeartBlue,0,94+textOffset,136);
+			draw_text(116-textOffset,131,string(global.p2lives));
+			break;
+		case 2:
+			textOffset = 0;
+			if (global.p2lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($00002B);
+			draw_sprite(sRedHUD,0,96,136);
+			draw_sprite(sPortraitRed,0,82,136);
+			draw_sprite(sHeartRed,0,94+textOffset,136);
+			draw_text(116-textOffset,131,string(global.p2lives));
+			break;
+		case 3:
+			textOffset = 0;
+			if (global.p2lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($2C142D);
+			draw_sprite(sPurpleHUD,0,96,136);
+			draw_sprite(sPortraitPurple,0,82,136);
+			draw_sprite(sHeartPurple,0,94+textOffset,136);
+			draw_text(116-textOffset,131,string(global.p2lives));
+			break;
+	}
+	
+	switch(global.p3skin)
+	{
+		case 0:
+			textOffset = 0;
+			if (global.p3lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($002704);
+			draw_sprite(sGreenHUD,0,160,136);
+			draw_sprite(sPortrait,0,146,136);
+			draw_sprite(sHeart,0,158+textOffset,136);
+			draw_text(180-textOffset,131,string(global.p3lives));
+			break;
+		case 1:
+			textOffset = 0;
+			if (global.p3lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($331800);
+			draw_sprite(sBlueHUD,0,160,136);
+			draw_sprite(sPortraitBlue,0,146,136);
+			draw_sprite(sHeartBlue,0,158+textOffset,136);
+			draw_text(180-textOffset,131,string(global.p3lives));
+			break;
+		case 2:
+			textOffset = 0;
+			if (global.p3lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($00002B);
+			draw_sprite(sRedHUD,0,160,136);
+			draw_sprite(sPortraitRed,0,146,136);
+			draw_sprite(sHeartRed,0,158+textOffset,136);
+			draw_text(180-textOffset,131,string(global.p3lives));
+			break;
+		case 3:
+			textOffset = 0;
+			if (global.p3lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($2C142D);
+			draw_sprite(sPurpleHUD,0,160,136);
+			draw_sprite(sPortraitPurple,0,146,136);
+			draw_sprite(sHeartPurple,0,158+textOffset,136);
+			draw_text(180-textOffset,131,string(global.p3lives));
+			break;
+	}
+	
+	switch(global.p4skin)
+	{
+		case 0:
+			textOffset = 0;
+			if (global.p4lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($002704);
+			draw_sprite(sGreenHUD,0,224,136);
+			draw_sprite(sPortrait,0,210,136);
+			draw_sprite(sHeart,0,222+textOffset,136);
+			draw_text(244-textOffset,131,string(global.p4lives));
+			break;
+		case 1:
+			textOffset = 0;
+			if (global.p4lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($331800);
+			draw_sprite(sBlueHUD,0,224,136);
+			draw_sprite(sPortraitBlue,0,210,136);
+			draw_sprite(sHeartBlue,0,222+textOffset,136);
+			draw_text(244-textOffset,131,string(global.p4lives));
+			break;
+		case 2:
+			textOffset = 0;
+			if (global.p4lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($00002B);
+			draw_sprite(sRedHUD,0,224,136);
+			draw_sprite(sPortraitRed,0,210,136);
+			draw_sprite(sHeartRed,0,222+textOffset,136);
+			draw_text(244-textOffset,131,string(global.p4lives));
+			break;
+		case 3:
+			textOffset = 0;
+			if (global.p4lives < 10)
+			{
+				textOffset = 4;	
+			}
+			draw_set_color($2C142D);
+			draw_sprite(sPurpleHUD,0,224,136);
+			draw_sprite(sPortraitPurple,0,210,136);
+			draw_sprite(sHeartPurple,0,222+textOffset,136);
+			draw_text(244-textOffset,131,string(global.p4lives));
+			break;
+	}
+}
+
 
 // Draw Pause Menu
 if(global.paused)
 {
-	draw_sprite(sPauseMenu,pauseOption,80,40);
+	if(room != rMultiplayer)
+	{
+		draw_sprite(sPauseMenu,pauseOption,80,40);
+	}
+	else
+	{
+		draw_sprite(sPauseMenuGray,pauseOption,80,40);
+	}
 }

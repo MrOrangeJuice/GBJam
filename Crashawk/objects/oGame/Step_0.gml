@@ -32,7 +32,7 @@ if (gamepad_button_check_pressed(0,gp_face1) || gamepad_button_check_pressed(4,g
 	global.controller = 1;
 }
 
-if(gamepad_button_check_pressed(0,gp_start) || gamepad_button_check_pressed(4,gp_start))
+if(gamepad_button_check_pressed(0,gp_start) || gamepad_button_check_pressed(1,gp_start) || gamepad_button_check_pressed(0,gp_start) || gamepad_button_check_pressed(2,gp_start) || gamepad_button_check_pressed(3,gp_start) || gamepad_button_check_pressed(4,gp_start) || gamepad_button_check_pressed(5,gp_start) || gamepad_button_check_pressed(6,gp_start) || gamepad_button_check_pressed(7,gp_start))
 {
 	key_pause = true;
 	global.controller = 1;
@@ -99,6 +99,10 @@ if(global.paused)
 				break;
 			case 2:
 				SlideTransition(TRANS_MODE.GOTO, rTitle);
+				global.p1lives = 10;
+				global.p2lives = 10;
+				global.p3lives = 10;
+				global.p4lives = 10;
 				break;
 		}
 	}
