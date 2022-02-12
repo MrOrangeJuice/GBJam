@@ -141,6 +141,21 @@ else
 	analogDownPrevD = false;	
 }
 
+// Check for end of match
+if(room == rMultiplayer)
+{
+	playersAlive = 0;
+	if(global.p1lives > 0) playersAlive++;
+	if(global.p2lives > 0) playersAlive++;
+	if(global.p3lives > 0) playersAlive++;
+	if(global.p4lives > 0) playersAlive++;
+	
+	if(playersAlive == 1)
+	{
+		SlideTransition(TRANS_MODE.GOTO,rMultiplayerResults);	
+	}
+}
+
 if(room != rResults && room != rTitle && !global.paused)
 {
 	global.time++;	

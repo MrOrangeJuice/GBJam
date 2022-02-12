@@ -95,6 +95,7 @@
     {"id":{"name":"rResults","path":"rooms/rResults/rResults.yy",},"order":4,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":19,},
     {"id":{"name":"sCheckpointActive","path":"sprites/sCheckpointActive/sCheckpointActive.yy",},"order":16,},
+    {"id":{"name":"oMultiplayerResults","path":"objects/oMultiplayerResults/oMultiplayerResults.yy",},"order":41,},
     {"id":{"name":"sRedHUD","path":"sprites/sRedHUD/sRedHUD.yy",},"order":9,},
     {"id":{"name":"sMenuTutorial","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},"order":11,},
     {"id":{"name":"sPlayerDashBlue","path":"sprites/sPlayerDashBlue/sPlayerDashBlue.yy",},"order":1,},
@@ -171,6 +172,7 @@
     {"id":{"name":"sCannon","path":"sprites/sCannon/sCannon.yy",},"order":60,},
     {"id":{"name":"oLeftArrowRed","path":"objects/oLeftArrowRed/oLeftArrowRed.yy",},"order":32,},
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},"order":37,},
+    {"id":{"name":"rMultiplayerResults","path":"rooms/rMultiplayerResults/rMultiplayerResults.yy",},"order":6,},
     {"id":{"name":"sCrashTutorial","path":"sprites/sCrashTutorial/sCrashTutorial.yy",},"order":0,},
     {"id":{"name":"snd_Coin","path":"sounds/snd_Coin/snd_Coin.yy",},"order":8,},
     {"id":{"name":"tGrayTileset","path":"tilesets/tGrayTileset/tGrayTileset.yy",},"order":1,},
@@ -208,6 +210,7 @@
     {"roomId":{"name":"rResults","path":"rooms/rResults/rResults.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"rMultiplayer","path":"rooms/rMultiplayer/rMultiplayer.yy",},},
+    {"roomId":{"name":"rMultiplayerResults","path":"rooms/rMultiplayerResults/rMultiplayerResults.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
