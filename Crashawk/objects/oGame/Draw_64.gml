@@ -57,6 +57,7 @@ if(room == rLevel2)
 
 if(room == rMultiplayer)
 {
+	// Player 1 HUD
 	switch(global.p1skin)
 	{
 		case 0:
@@ -65,11 +66,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p1TextScale = max(global.p1TextScale * .95, 1);
 			draw_set_color($002704);
 			draw_sprite(sGreenHUD,0,32,136);
 			draw_sprite(sPortrait,0,18,136);
 			draw_sprite(sHeart,0,30+textOffset,136);
-			draw_text(52-textOffset,131,string(global.p1lives));
+			draw_text_transformed(52-textOffset,131,string(global.p1lives),global.p1TextScale,global.p1TextScale,0);
 			break;
 		case 1:
 			textOffset = 0;
@@ -77,11 +79,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p1TextScale = max(global.p1TextScale * .95, 1);
 			draw_set_color($331800);
 			draw_sprite(sBlueHUD,0,32,136);
 			draw_sprite(sPortraitBlue,0,18,136);
 			draw_sprite(sHeartBlue,0,30+textOffset,136);
-			draw_text(52-textOffset,131,string(global.p1lives));
+			draw_text_transformed(52-textOffset,131,string(global.p1lives),global.p1TextScale,global.p1TextScale,0);
 			break;
 		case 2:
 			textOffset = 0;
@@ -89,11 +92,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p1TextScale = max(global.p1TextScale * .95, 1);
 			draw_set_color($00002B);
 			draw_sprite(sRedHUD,0,32,136);
 			draw_sprite(sPortraitRed,0,18,136);
 			draw_sprite(sHeartRed,0,30+textOffset,136);
-			draw_text(52-textOffset,131,string(global.p1lives));
+			draw_text_transformed(52-textOffset,131,string(global.p1lives),global.p1TextScale,global.p1TextScale,0);
 			break;
 		case 3:
 			textOffset = 0;
@@ -101,14 +105,16 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p1TextScale = max(global.p1TextScale * .95, 1);
 			draw_set_color($2C142D);
 			draw_sprite(sPurpleHUD,0,32,136);
 			draw_sprite(sPortraitPurple,0,18,136);
 			draw_sprite(sHeartPurple,0,30+textOffset,136);
-			draw_text(52-textOffset,131,string(global.p1lives));
+			draw_text_transformed(52-textOffset,131,string(global.p1lives),global.p1TextScale,global.p1TextScale,0);
 			break;
 	}
 	
+	// Player 2 HUD
 	switch(global.p2skin)
 	{
 		case 0:
@@ -117,11 +123,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p2TextScale = max(global.p2TextScale * .95, 1);
 			draw_set_color($002704);
 			draw_sprite(sGreenHUD,0,96,136);
 			draw_sprite(sPortrait,0,82,136);
 			draw_sprite(sHeart,0,94+textOffset,136);
-			draw_text(116-textOffset,131,string(global.p2lives));
+			draw_text_transformed(116-textOffset,131,string(global.p2lives),global.p2TextScale,global.p2TextScale,0);
 			break;
 		case 1:
 			textOffset = 0;
@@ -129,11 +136,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p2TextScale = max(global.p2TextScale * .95, 1);
 			draw_set_color($331800);
 			draw_sprite(sBlueHUD,0,96,136);
 			draw_sprite(sPortraitBlue,0,82,136);
 			draw_sprite(sHeartBlue,0,94+textOffset,136);
-			draw_text(116-textOffset,131,string(global.p2lives));
+			draw_text_transformed(116-textOffset,131,string(global.p2lives),global.p2TextScale,global.p2TextScale,0);
 			break;
 		case 2:
 			textOffset = 0;
@@ -141,11 +149,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p2TextScale = max(global.p2TextScale * .95, 1);
 			draw_set_color($00002B);
 			draw_sprite(sRedHUD,0,96,136);
 			draw_sprite(sPortraitRed,0,82,136);
 			draw_sprite(sHeartRed,0,94+textOffset,136);
-			draw_text(116-textOffset,131,string(global.p2lives));
+			draw_text_transformed(116-textOffset,131,string(global.p2lives),global.p2TextScale,global.p2TextScale,0);
 			break;
 		case 3:
 			textOffset = 0;
@@ -153,14 +162,16 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p2TextScale = max(global.p2TextScale * .95, 1);
 			draw_set_color($2C142D);
 			draw_sprite(sPurpleHUD,0,96,136);
 			draw_sprite(sPortraitPurple,0,82,136);
 			draw_sprite(sHeartPurple,0,94+textOffset,136);
-			draw_text(116-textOffset,131,string(global.p2lives));
+			draw_text_transformed(116-textOffset,131,string(global.p2lives),global.p2TextScale,global.p2TextScale,0);
 			break;
 	}
 	
+	// Player 3 HUD
 	switch(global.p3skin)
 	{
 		case 0:
@@ -169,11 +180,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p3TextScale = max(global.p3TextScale * .95, 1);
 			draw_set_color($002704);
 			draw_sprite(sGreenHUD,0,160,136);
 			draw_sprite(sPortrait,0,146,136);
 			draw_sprite(sHeart,0,158+textOffset,136);
-			draw_text(180-textOffset,131,string(global.p3lives));
+			draw_text_transformed(180-textOffset,131,string(global.p3lives),global.p3TextScale,global.p3TextScale,0);
 			break;
 		case 1:
 			textOffset = 0;
@@ -181,11 +193,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p3TextScale = max(global.p3TextScale * .95, 1);
 			draw_set_color($331800);
 			draw_sprite(sBlueHUD,0,160,136);
 			draw_sprite(sPortraitBlue,0,146,136);
 			draw_sprite(sHeartBlue,0,158+textOffset,136);
-			draw_text(180-textOffset,131,string(global.p3lives));
+			draw_text_transformed(180-textOffset,131,string(global.p3lives),global.p3TextScale,global.p3TextScale,0);
 			break;
 		case 2:
 			textOffset = 0;
@@ -193,11 +206,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p3TextScale = max(global.p3TextScale * .95, 1);
 			draw_set_color($00002B);
 			draw_sprite(sRedHUD,0,160,136);
 			draw_sprite(sPortraitRed,0,146,136);
 			draw_sprite(sHeartRed,0,158+textOffset,136);
-			draw_text(180-textOffset,131,string(global.p3lives));
+			draw_text_transformed(180-textOffset,131,string(global.p3lives),global.p3TextScale,global.p3TextScale,0);
 			break;
 		case 3:
 			textOffset = 0;
@@ -205,14 +219,16 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p3TextScale = max(global.p3TextScale * .95, 1);
 			draw_set_color($2C142D);
 			draw_sprite(sPurpleHUD,0,160,136);
 			draw_sprite(sPortraitPurple,0,146,136);
 			draw_sprite(sHeartPurple,0,158+textOffset,136);
-			draw_text(180-textOffset,131,string(global.p3lives));
+			draw_text_transformed(180-textOffset,131,string(global.p3lives),global.p3TextScale,global.p3TextScale,0);
 			break;
 	}
 	
+	// Player 4 HUD
 	switch(global.p4skin)
 	{
 		case 0:
@@ -221,11 +237,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p4TextScale = max(global.p4TextScale * .95, 1);
 			draw_set_color($002704);
 			draw_sprite(sGreenHUD,0,224,136);
 			draw_sprite(sPortrait,0,210,136);
 			draw_sprite(sHeart,0,222+textOffset,136);
-			draw_text(244-textOffset,131,string(global.p4lives));
+			draw_text_transformed(244-textOffset,131,string(global.p4lives),global.p4TextScale,global.p4TextScale,0);
 			break;
 		case 1:
 			textOffset = 0;
@@ -233,11 +250,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p4TextScale = max(global.p4TextScale * .95, 1);
 			draw_set_color($331800);
 			draw_sprite(sBlueHUD,0,224,136);
 			draw_sprite(sPortraitBlue,0,210,136);
 			draw_sprite(sHeartBlue,0,222+textOffset,136);
-			draw_text(244-textOffset,131,string(global.p4lives));
+			draw_text_transformed(244-textOffset,131,string(global.p4lives),global.p4TextScale,global.p4TextScale,0);
 			break;
 		case 2:
 			textOffset = 0;
@@ -245,11 +263,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p4TextScale = max(global.p4TextScale * .95, 1);
 			draw_set_color($00002B);
 			draw_sprite(sRedHUD,0,224,136);
 			draw_sprite(sPortraitRed,0,210,136);
 			draw_sprite(sHeartRed,0,222+textOffset,136);
-			draw_text(244-textOffset,131,string(global.p4lives));
+			draw_text_transformed(244-textOffset,131,string(global.p4lives),global.p4TextScale,global.p4TextScale,0);
 			break;
 		case 3:
 			textOffset = 0;
@@ -257,11 +276,12 @@ if(room == rMultiplayer)
 			{
 				textOffset = 4;	
 			}
+			global.p4TextScale = max(global.p4TextScale * .95, 1);
 			draw_set_color($2C142D);
 			draw_sprite(sPurpleHUD,0,224,136);
 			draw_sprite(sPortraitPurple,0,210,136);
 			draw_sprite(sHeartPurple,0,222+textOffset,136);
-			draw_text(244-textOffset,131,string(global.p4lives));
+			draw_text_transformed(244-textOffset,131,string(global.p4lives),global.p4TextScale,global.p4TextScale,0);
 			break;
 	}
 }

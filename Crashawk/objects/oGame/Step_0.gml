@@ -99,10 +99,6 @@ if(global.paused)
 				break;
 			case 2:
 				SlideTransition(TRANS_MODE.GOTO, rTitle);
-				global.p1lives = 10;
-				global.p2lives = 10;
-				global.p3lives = 10;
-				global.p4lives = 10;
 				break;
 		}
 	}

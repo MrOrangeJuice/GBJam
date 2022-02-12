@@ -13,6 +13,11 @@ if(room == rTitle)
 	global.paused = false;
 	global.time = 0;
 	global.coins = 0;
+	// Reset multiplayer
+	global.p1lives = 10;
+	global.p2lives = 10;
+	global.p3lives = 10;
+	global.p4lives = 10;
 }
 
 if(room != rTitle && room != rResults && room != rMultiplayer)
