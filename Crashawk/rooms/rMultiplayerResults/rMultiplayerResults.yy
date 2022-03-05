@@ -19,6 +19,7 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Tutorials","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oResultsTitle","path":"objects/oResultsTitle/oResultsTitle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":-8.0,"resourceVersion":"1.0","name":"inst_385BD1A7_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oTrophy","path":"objects/oTrophy/oTrophy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":48.0,"resourceVersion":"1.0","name":"inst_5D086105","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oMultiplayerResults","path":"objects/oMultiplayerResults/oMultiplayerResults.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":64.0,"resourceVersion":"1.0","name":"inst_3E3990B6","tags":[],"resourceType":"GMRInstance",},
@@ -33,6 +34,7 @@
     {"name":"inst_7689869E_1","path":"rooms/rMultiplayerResults/rMultiplayerResults.yy",},
     {"name":"inst_77A39D6F_1","path":"rooms/rMultiplayerResults/rMultiplayerResults.yy",},
     {"name":"inst_3E3990B6","path":"rooms/rMultiplayerResults/rMultiplayerResults.yy",},
+    {"name":"inst_5D086105","path":"rooms/rMultiplayerResults/rMultiplayerResults.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

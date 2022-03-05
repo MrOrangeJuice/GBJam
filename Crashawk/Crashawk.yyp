@@ -75,6 +75,7 @@
     {"id":{"name":"oPlayerRun","path":"objects/oPlayerRun/oPlayerRun.yy",},"order":12,},
     {"id":{"name":"sRank","path":"sprites/sRank/sRank.yy",},"order":36,},
     {"id":{"name":"sPlayerIdlePurple","path":"sprites/sPlayerIdlePurple/sPlayerIdlePurple.yy",},"order":5,},
+    {"id":{"name":"oTrophy","path":"objects/oTrophy/oTrophy.yy",},"order":42,},
     {"id":{"name":"snd_CannonEnter","path":"sounds/snd_CannonEnter/snd_CannonEnter.yy",},"order":19,},
     {"id":{"name":"oResults","path":"objects/oResults/oResults.yy",},"order":16,},
     {"id":{"name":"sPlayerJumpDown","path":"sprites/sPlayerJumpDown/sPlayerJumpDown.yy",},"order":6,},
