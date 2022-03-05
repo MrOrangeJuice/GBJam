@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPortraitBlue","path":"sprites/sPortraitBlue/sPortraitBlue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPortraitBlue",
     "tags": [],
     "resourceType": "GMSequence",

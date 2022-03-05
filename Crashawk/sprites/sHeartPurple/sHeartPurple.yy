@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sHeartPurple","path":"sprites/sHeartPurple/sHeartPurple.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sHeartPurple",
     "tags": [],
     "resourceType": "GMSequence",

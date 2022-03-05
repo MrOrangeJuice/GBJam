@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sThumbnailBig","path":"sprites/sThumbnailBig/sThumbnailBig.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sThumbnailBig",
     "tags": [],
     "resourceType": "GMSequence",

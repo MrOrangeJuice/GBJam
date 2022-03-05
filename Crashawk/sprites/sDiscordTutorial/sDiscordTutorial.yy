@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sDiscordTutorial","path":"sprites/sDiscordTutorial/sDiscordTutorial.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sDiscordTutorial",
     "tags": [],
     "resourceType": "GMSequence",

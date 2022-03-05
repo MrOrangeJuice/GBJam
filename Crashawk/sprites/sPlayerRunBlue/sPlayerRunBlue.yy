@@ -65,7 +65,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerRunBlue","path":"sprites/sPlayerRunBlue/sPlayerRunBlue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerRunBlue",
     "tags": [],
     "resourceType": "GMSequence",

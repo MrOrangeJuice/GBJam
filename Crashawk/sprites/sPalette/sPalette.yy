@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPalette","path":"sprites/sPalette/sPalette.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPalette",
     "tags": [],
     "resourceType": "GMSequence",

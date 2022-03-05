@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerCannon","path":"sprites/sPlayerCannon/sPlayerCannon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerCannon",
     "tags": [],
     "resourceType": "GMSequence",

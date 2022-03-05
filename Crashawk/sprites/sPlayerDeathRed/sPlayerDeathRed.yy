@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerDeathRed","path":"sprites/sPlayerDeathRed/sPlayerDeathRed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerDeathRed",
     "tags": [],
     "resourceType": "GMSequence",

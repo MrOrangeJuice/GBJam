@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sJumpTutorialController","path":"sprites/sJumpTutorialController/sJumpTutorialController.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sJumpTutorialController",
     "tags": [],
     "resourceType": "GMSequence",

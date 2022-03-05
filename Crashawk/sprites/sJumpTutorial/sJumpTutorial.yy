@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sJumpTutorial","path":"sprites/sJumpTutorial/sJumpTutorial.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sJumpTutorial",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerDashBig","path":"sprites/sPlayerDashBig/sPlayerDashBig.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerDashBig",
     "tags": [],
     "resourceType": "GMSequence",

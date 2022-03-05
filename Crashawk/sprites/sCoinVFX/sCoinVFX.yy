@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCoinVFX","path":"sprites/sCoinVFX/sCoinVFX.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCoinVFX",
     "tags": [],
     "resourceType": "GMSequence",

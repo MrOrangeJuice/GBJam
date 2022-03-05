@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sArrowDiagonalRightRed","path":"sprites/sArrowDiagonalRightRed/sArrowDiagonalRightRed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sArrowDiagonalRightRed",
     "tags": [],
     "resourceType": "GMSequence",

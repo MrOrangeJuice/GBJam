@@ -61,7 +61,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sThumbnail2WideBig","path":"sprites/sThumbnail2WideBig/sThumbnail2WideBig.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sThumbnail2WideBig",
     "tags": [],
     "resourceType": "GMSequence",

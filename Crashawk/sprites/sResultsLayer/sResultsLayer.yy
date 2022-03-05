@@ -61,7 +61,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sResultsLayer","path":"sprites/sResultsLayer/sResultsLayer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sResultsLayer",
     "tags": [],
     "resourceType": "GMSequence",

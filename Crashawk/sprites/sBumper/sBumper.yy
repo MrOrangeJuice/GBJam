@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBumper","path":"sprites/sBumper/sBumper.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBumper",
     "tags": [],
     "resourceType": "GMSequence",

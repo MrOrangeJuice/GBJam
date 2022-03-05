@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSpike",
     "tags": [],
     "resourceType": "GMSequence",

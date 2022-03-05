@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sServerIcon","path":"sprites/sServerIcon/sServerIcon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sServerIcon",
     "tags": [],
     "resourceType": "GMSequence",

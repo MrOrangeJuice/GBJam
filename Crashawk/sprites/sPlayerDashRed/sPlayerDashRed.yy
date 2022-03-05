@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerDashRed","path":"sprites/sPlayerDashRed/sPlayerDashRed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerDashRed",
     "tags": [],
     "resourceType": "GMSequence",

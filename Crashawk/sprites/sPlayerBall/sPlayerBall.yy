@@ -111,7 +111,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerBall","path":"sprites/sPlayerBall/sPlayerBall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerBall",
     "tags": [],
     "resourceType": "GMSequence",

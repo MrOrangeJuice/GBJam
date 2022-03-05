@@ -220,7 +220,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCannonEnter","path":"sprites/sCannonEnter/sCannonEnter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCannonEnter",
     "tags": [],
     "resourceType": "GMSequence",

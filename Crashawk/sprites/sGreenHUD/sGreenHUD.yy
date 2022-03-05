@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGreenHUD","path":"sprites/sGreenHUD/sGreenHUD.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGreenHUD",
     "tags": [],
     "resourceType": "GMSequence",

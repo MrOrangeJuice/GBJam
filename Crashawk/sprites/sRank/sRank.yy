@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sRank","path":"sprites/sRank/sRank.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sRank",
     "tags": [],
     "resourceType": "GMSequence",

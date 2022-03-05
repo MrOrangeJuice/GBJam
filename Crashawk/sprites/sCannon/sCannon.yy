@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCannon","path":"sprites/sCannon/sCannon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCannon",
     "tags": [],
     "resourceType": "GMSequence",

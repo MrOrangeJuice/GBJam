@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerJumpDown","path":"sprites/sPlayerJumpDown/sPlayerJumpDown.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerJumpDown",
     "tags": [],
     "resourceType": "GMSequence",

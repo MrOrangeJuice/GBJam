@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMoveTutorialController","path":"sprites/sMoveTutorialController/sMoveTutorialController.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sMoveTutorialController",
     "tags": [],
     "resourceType": "GMSequence",

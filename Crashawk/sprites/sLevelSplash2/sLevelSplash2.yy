@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLevelSplash2","path":"sprites/sLevelSplash2/sLevelSplash2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLevelSplash2",
     "tags": [],
     "resourceType": "GMSequence",

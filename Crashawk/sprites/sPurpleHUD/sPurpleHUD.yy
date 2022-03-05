@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPurpleHUD","path":"sprites/sPurpleHUD/sPurpleHUD.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPurpleHUD",
     "tags": [],
     "resourceType": "GMSequence",

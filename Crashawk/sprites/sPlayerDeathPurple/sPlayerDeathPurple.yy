@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerDeathPurple","path":"sprites/sPlayerDeathPurple/sPlayerDeathPurple.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerDeathPurple",
     "tags": [],
     "resourceType": "GMSequence",

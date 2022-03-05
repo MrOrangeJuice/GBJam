@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBumperHit","path":"sprites/sBumperHit/sBumperHit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBumperHit",
     "tags": [],
     "resourceType": "GMSequence",

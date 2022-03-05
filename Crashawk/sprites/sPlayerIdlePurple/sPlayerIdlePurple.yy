@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerIdlePurple","path":"sprites/sPlayerIdlePurple/sPlayerIdlePurple.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerIdlePurple",
     "tags": [],
     "resourceType": "GMSequence",

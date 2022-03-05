@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerJumpUpBlue","path":"sprites/sPlayerJumpUpBlue/sPlayerJumpUpBlue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerJumpUpBlue",
     "tags": [],
     "resourceType": "GMSequence",

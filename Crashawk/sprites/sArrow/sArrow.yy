@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sArrow",
     "tags": [],
     "resourceType": "GMSequence",

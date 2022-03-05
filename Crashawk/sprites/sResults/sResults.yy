@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sResults","path":"sprites/sResults/sResults.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sResults",
     "tags": [],
     "resourceType": "GMSequence",

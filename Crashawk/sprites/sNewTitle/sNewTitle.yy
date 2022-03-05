@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNewTitle","path":"sprites/sNewTitle/sNewTitle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNewTitle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -70,7 +70,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPauseMenu","path":"sprites/sPauseMenu/sPauseMenu.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPauseMenu",
     "tags": [],
     "resourceType": "GMSequence",

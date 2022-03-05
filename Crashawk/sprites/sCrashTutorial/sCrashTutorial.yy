@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCrashTutorial","path":"sprites/sCrashTutorial/sCrashTutorial.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCrashTutorial",
     "tags": [],
     "resourceType": "GMSequence",

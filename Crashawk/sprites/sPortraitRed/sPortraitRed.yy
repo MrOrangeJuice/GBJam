@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPortraitRed","path":"sprites/sPortraitRed/sPortraitRed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPortraitRed",
     "tags": [],
     "resourceType": "GMSequence",

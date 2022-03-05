@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sHillTiles","path":"sprites/sHillTiles/sHillTiles.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sHillTiles",
     "tags": [],
     "resourceType": "GMSequence",

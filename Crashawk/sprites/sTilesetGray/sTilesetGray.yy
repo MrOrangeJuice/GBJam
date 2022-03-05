@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTilesetGray","path":"sprites/sTilesetGray/sTilesetGray.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTilesetGray",
     "tags": [],
     "resourceType": "GMSequence",

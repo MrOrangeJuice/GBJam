@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBlockFragment","path":"sprites/sBlockFragment/sBlockFragment.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBlockFragment",
     "tags": [],
     "resourceType": "GMSequence",

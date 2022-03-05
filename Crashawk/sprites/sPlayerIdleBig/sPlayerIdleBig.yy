@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerIdleBig","path":"sprites/sPlayerIdleBig/sPlayerIdleBig.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerIdleBig",
     "tags": [],
     "resourceType": "GMSequence",

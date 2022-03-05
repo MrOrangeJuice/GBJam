@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMenuTutorial","path":"sprites/sMenuTutorial/sMenuTutorial.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sMenuTutorial",
     "tags": [],
     "resourceType": "GMSequence",

@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerDeathBlue","path":"sprites/sPlayerDeathBlue/sPlayerDeathBlue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerDeathBlue",
     "tags": [],
     "resourceType": "GMSequence",

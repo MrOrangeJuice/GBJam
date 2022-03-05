@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sClouds","path":"sprites/sClouds/sClouds.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sClouds",
     "tags": [],
     "resourceType": "GMSequence",

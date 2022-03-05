@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSpikeJeremy","path":"sprites/sSpikeJeremy/sSpikeJeremy.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSpikeJeremy",
     "tags": [],
     "resourceType": "GMSequence",

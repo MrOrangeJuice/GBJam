@@ -61,7 +61,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTitleLayer","path":"sprites/sTitleLayer/sTitleLayer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTitleLayer",
     "tags": [],
     "resourceType": "GMSequence",
