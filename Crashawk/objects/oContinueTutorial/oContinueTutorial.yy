@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTrophyGray",
-    "path": "sprites/sTrophyGray/sTrophyGray.yy",
+    "name": "sMenuTutorial",
+    "path": "sprites/sMenuTutorial/sMenuTutorial.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTrophy",
+  "name": "oContinueTutorial",
   "tags": [],
   "resourceType": "GMObject",
 }
