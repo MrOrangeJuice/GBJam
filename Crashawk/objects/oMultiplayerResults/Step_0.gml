@@ -26,8 +26,10 @@ if(key_jump)
 	audio_play_sound(snd_MenuSelect,5,false);
 	SlideTransition(TRANS_MODE.RESTART);	
 }
+/*
 if(key_dash)
 {
 	audio_play_sound(snd_MenuSelect,5,false);
 	url_open("https://discord.gg/eyBNQE28MY");	
 }
+*/
