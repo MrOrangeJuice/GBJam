@@ -86,8 +86,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Green",
-    "path": "folders/Sprites/Players/Green.yy",
+    "name": "Blue",
+    "path": "folders/Sprites/Players/Blue.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerCSSBlue",
