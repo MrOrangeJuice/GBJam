@@ -24,7 +24,17 @@ if (gamepad_button_check_pressed(0,gp_face3) || gamepad_button_check_pressed(0,g
 if(key_jump)
 {
 	audio_play_sound(snd_MenuSelect,5,false);
-	SlideTransition(TRANS_MODE.RESTART);	
+	SlideTransition(TRANS_MODE.GOTO,rCharSelect);	
+	
+	global.p1skin = 0;
+	global.p2skin = 1;
+	global.p3skin = 2;
+	global.p4skin = 3;
+
+	global.p1lives = 10;
+	global.p2lives = 10;
+	global.p3lives = 10;
+	global.p4lives = 10;
 }
 /*
 if(key_dash)

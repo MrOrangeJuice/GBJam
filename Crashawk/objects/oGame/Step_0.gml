@@ -40,7 +40,7 @@ if(gamepad_button_check_pressed(0,gp_start) || gamepad_button_check_pressed(1,gp
 
 if(key_pause)
 {
-	if(room != rTitle && room != rResults)
+	if(room != rTitle && room != rResults && room != rMultiplayerResults && room != rCharSelect)
 	{
 		if(global.paused)
 		{

@@ -57,7 +57,7 @@ if(key_select)
 			SlideTransition(TRANS_MODE.NEXT);
 			break;
 		case 1:
-			SlideTransition(TRANS_MODE.GOTO,rMultiplayer);
+			SlideTransition(TRANS_MODE.GOTO,rCharSelect);
 			break;
 		case 2:
 			window_set_fullscreen(!window_get_fullscreen());

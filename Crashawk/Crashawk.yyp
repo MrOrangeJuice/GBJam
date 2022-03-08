@@ -144,6 +144,7 @@
     {"id":{"name":"sTilesetGray","path":"sprites/sTilesetGray/sTilesetGray.yy",},"order":1,},
     {"id":{"name":"sArrowDiagonalRightPurple","path":"sprites/sArrowDiagonalRightPurple/sArrowDiagonalRightPurple.yy",},"order":1,},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":28,},
+    {"id":{"name":"oCharSelect","path":"objects/oCharSelect/oCharSelect.yy",},"order":47,},
     {"id":{"name":"sBlockFragment","path":"sprites/sBlockFragment/sBlockFragment.yy",},"order":63,},
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},"order":26,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},

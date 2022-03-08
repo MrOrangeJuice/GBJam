@@ -6,7 +6,7 @@ draw_set_color($002704);
 draw_set_halign(fa_right);
 draw_set_valign(fa_top);
 
-if(room != rTitle && room != rResults && room != rMultiplayer && room != rMultiplayerResults)
+if(room != rTitle && room != rResults && room != rMultiplayer && room != rMultiplayerResults && room != rCharSelect)
 {
 	coinOffset = 0;
 	// Draw Coin Count
