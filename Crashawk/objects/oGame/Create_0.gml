@@ -29,3 +29,5 @@ global.p1lives = 10;
 global.p2lives = 10;
 global.p3lives = 10;
 global.p4lives = 10;
+
+global.controllers = [-1,-1,-1,-1];

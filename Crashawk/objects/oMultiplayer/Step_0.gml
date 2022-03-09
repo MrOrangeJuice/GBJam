@@ -14,7 +14,7 @@ if(!global.paused)
 	key_dash = 0;
 	key_dash_released = 0;
 	
-	if(controller == -1)
+	if(controller == 8)
 	{
 		key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);
 		key_right = keyboard_check(ord("D")) || keyboard_check(vk_right);

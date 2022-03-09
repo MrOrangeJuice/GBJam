@@ -211,6 +211,7 @@
     {"id":{"name":"snd_Win","path":"sounds/snd_Win/snd_Win.yy",},"order":24,},
     {"id":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},"order":1,},
     {"id":{"name":"sResultsGray","path":"sprites/sResultsGray/sResultsGray.yy",},"order":33,},
+    {"id":{"name":"oCSSTutorial","path":"objects/oCSSTutorial/oCSSTutorial.yy",},"order":50,},
     {"id":{"name":"sArrowDiagonalLeftBlue","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"order":7,},
     {"id":{"name":"sThumbnailBig","path":"sprites/sThumbnailBig/sThumbnailBig.yy",},"order":12,},
     {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},"order":0,},
