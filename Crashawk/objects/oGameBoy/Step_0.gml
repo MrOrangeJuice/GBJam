@@ -56,36 +56,57 @@ else
 }
 
 // Swap skin
-if(key_right)
+if(!confirm)
 {
-	skin++;
-	if(skin > 3)
+	if(key_right)
 	{
-		skin = 0;	
+		skin++;
+		if(skin > 3)
+		{
+			skin = 0;	
+		}
 	}
-}
 
-if(key_left)
-{
-	skin--;
-	if(skin < 0)
+	if(key_left)
 	{
-		skin = 3;	
+		skin--;
+		if(skin < 0)
+		{
+			skin = 3;	
+		}
 	}
 }
 
 // Display Skin
 if(inPlace)
 {
-	switch(player)
+	playerCSS.color = skin;
+}
+
+if(key_select && !confirm)
+{
+	playerCSS.confirmed = true;	
+	confirm = true;
+	switch(skin)
 	{
 		case 0:
+			sprite_index = sGameBoyGreen;
+			break;
+		case 1:
+			sprite_index = sGameBoyBlue;
+			break;
+		case 2:
+			sprite_index = sGameBoyRed;
+			break;
+		case 3:
+			sprite_index = sGameBoyPurple;
 			break;
 	}
 }
 
 // Back Out
-if(key_back && inPlace)
+
+if(key_back && inPlace && !confirm)
 {
 	slow = 0.2;
 	inPlace = false;
@@ -93,6 +114,13 @@ if(key_back && inPlace)
 	instance_destroy(playerCSS);
 	global.controllers[player] = -1;
 	alarm[0] = room_speed;
+}
+
+if(key_back && inPlace && confirm)
+{
+	confirm = false;
+	playerCSS.confirmed = false;
+	sprite_index = sGameBoy;
 }
 
 // Record analog inputs for this frame

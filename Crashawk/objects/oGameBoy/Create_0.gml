@@ -9,3 +9,4 @@ analogLeftPrev = false;
 analogRightPrev = false;
 
 skin = 0;
+confirm = false;
