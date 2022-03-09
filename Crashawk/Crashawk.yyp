@@ -63,6 +63,7 @@
     {"id":{"name":"sTrophyGray","path":"sprites/sTrophyGray/sTrophyGray.yy",},"order":74,},
     {"id":{"name":"sNewTitleLayer","path":"sprites/sNewTitleLayer/sNewTitleLayer.yy",},"order":68,},
     {"id":{"name":"snd_Cannon","path":"sounds/snd_Cannon/snd_Cannon.yy",},"order":20,},
+    {"id":{"name":"oCSSPlayer","path":"objects/oCSSPlayer/oCSSPlayer.yy",},"order":51,},
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},"order":0,},
     {"id":{"name":"sPlayerDashBig","path":"sprites/sPlayerDashBig/sPlayerDashBig.yy",},"order":2,},
     {"id":{"name":"sPortraitBlue","path":"sprites/sPortraitBlue/sPortraitBlue.yy",},"order":10,},

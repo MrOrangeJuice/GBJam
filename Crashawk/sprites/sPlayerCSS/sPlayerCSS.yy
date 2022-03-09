@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"8b667dc7-7e54-4c72-93e2-fc1770bcbedb","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8b667dc7-7e54-4c72-93e2-fc1770bcbedb","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"LayerId":{"name":"7f740b08-fcde-463a-9f24-55b96f8103b9","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"8b667dc7-7e54-4c72-93e2-fc1770bcbedb","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"LayerId":{"name":"6047f6d6-4fe4-4c58-ad91-4b10f83b4845","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"8b667dc7-7e54-4c72-93e2-fc1770bcbedb","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"LayerId":{"name":"7f740b08-fcde-463a-9f24-55b96f8103b9","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPlayerCSS","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"resourceVersion":"1.0","name":"8b667dc7-7e54-4c72-93e2-fc1770bcbedb","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"42fc1861-8e82-4aba-9c88-e3d0ab79439b","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"42fc1861-8e82-4aba-9c88-e3d0ab79439b","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"LayerId":{"name":"6047f6d6-4fe4-4c58-ad91-4b10f83b4845","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -70,8 +70,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 9,
+    "yorigin": 7,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerCSS","path":"sprites/sPlayerCSS/sPlayerCSS.yy",},

@@ -1,6 +1,8 @@
 /// @description Check for new players
 
 // Get incoming input
+newInput = -1;
+
 if(keyboard_check_pressed(ord("Z")))
 {
 	newInput = 8;
@@ -75,4 +77,5 @@ if(!alreadyExists && newInput != -1)
 	// Spawn game boy
 	newGB = instance_create_layer(184 + (48 * openSlot),240,"Instances",oGameBoy);
 	newGB.controller = newInput;
+	newGB.player = openSlot;
 }
