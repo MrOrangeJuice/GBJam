@@ -24,22 +24,24 @@ key_back = 0;
 	
 if(controller == 8)
 {
-	key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);
-	key_right = keyboard_check(ord("D")) || keyboard_check(vk_right);
+	key_left = keyboard_check_pressed(ord("A")) || keyboard_check_pressed(vk_left);
+	key_right = keyboard_check_pressed(ord("D")) || keyboard_check_pressed(vk_right);
 	key_select = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("Z"));
 	key_back = keyboard_check_pressed(vk_lshift) || keyboard_check_pressed(ord("X"));
 }
 else
 {
 	// Gamepad input
-	if (gamepad_axis_value(controller,gp_axislh) < -0.2 || gamepad_button_check(controller,gp_padl))
+	if ((gamepad_axis_value(controller,gp_axislh) < -0.2 && !analogLeftPrev) || gamepad_button_check_pressed(controller,gp_padl))
 	{
 		key_left = 1;
+		analogLeftPrev = true;
 	}
 
-	if (gamepad_axis_value(controller,gp_axislh) > 0.2 || gamepad_button_check(controller,gp_padr))
+	if ((gamepad_axis_value(controller,gp_axislh) > 0.2 && !analogRightPrev) || gamepad_button_check_pressed(controller,gp_padr))
 	{
 		key_right = 1;
+		analogRightPrev = true;
 	}
 
 	if (gamepad_button_check_pressed(controller,gp_face1))
@@ -53,6 +55,35 @@ else
 	}
 }
 
+// Swap skin
+if(key_right)
+{
+	skin++;
+	if(skin > 3)
+	{
+		skin = 0;	
+	}
+}
+
+if(key_left)
+{
+	skin--;
+	if(skin < 0)
+	{
+		skin = 3;	
+	}
+}
+
+// Display Skin
+if(inPlace)
+{
+	switch(player)
+	{
+		case 0:
+			break;
+	}
+}
+
 // Back Out
 if(key_back && inPlace)
 {
@@ -62,4 +93,23 @@ if(key_back && inPlace)
 	instance_destroy(playerCSS);
 	global.controllers[player] = -1;
 	alarm[0] = room_speed;
+}
+
+// Record analog inputs for this frame
+if(gamepad_axis_value(0,gp_axislh) < -0.2)
+{
+	analogLeftPrev = true;	
+}
+else
+{
+	analogLeftPrev = false;	
+}
+
+if(gamepad_axis_value(0,gp_axislh) > 0.2)
+{
+	analogRightPrev = true;	
+}
+else
+{
+	analogRightPrev = false;	
 }

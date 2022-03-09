@@ -62,7 +62,7 @@ if(newInput != -1)
 if(!alreadyExists && newInput != -1)
 {
 	// Find first open spot
-	openSlot = 0;
+	openSlot = -1;
 	for(i = 0; i < array_length(global.controllers); i++)
 	{
 		if(global.controllers[i] == -1) 
@@ -72,7 +72,7 @@ if(!alreadyExists && newInput != -1)
 		}
 	}
 	
-	global.controllers[openSlot] = newInput;
+	if(openSlot != -1) global.controllers[openSlot] = newInput;
 	
 	// Spawn game boy
 	newGB = instance_create_layer(184 + (48 * openSlot),240,"Instances",oGameBoy);
