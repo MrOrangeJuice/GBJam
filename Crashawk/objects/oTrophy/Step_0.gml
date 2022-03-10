@@ -49,6 +49,7 @@ if(falling)
 	{
 		falling = false;
 		audio_play_sound(snd_Win,5,false);
+		instance_create_layer(128,128,"Tutorials",oContinueTutorialGray);
 	}
 }
 

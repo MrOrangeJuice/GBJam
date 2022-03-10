@@ -90,7 +90,11 @@ if (global.p4skin != -1) numPlayers++;
 
 if(numPlayers > 1)
 {
-	if(keyboard_check_pressed(vk_enter))
+	if(keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0,gp_start) ||
+	gamepad_button_check_pressed(1,gp_start) || gamepad_button_check_pressed(2,gp_start) ||
+	gamepad_button_check_pressed(3,gp_start) || gamepad_button_check_pressed(4,gp_start) ||
+	gamepad_button_check_pressed(5,gp_start) || gamepad_button_check_pressed(6,gp_start) ||
+	gamepad_button_check_pressed(7,gp_start))
 	{
 		SlideTransition(TRANS_MODE.GOTO,rMultiplayer);	
 	}
