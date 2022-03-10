@@ -14,20 +14,8 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":112.0,"resourceVersion":"1.0","name":"inst_124F1AC","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"controller","path":"objects/oMultiplayer/oMultiplayer.yy",},"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"player","path":"objects/oMultiplayer/oMultiplayer.yy",},"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":112.0,"resourceVersion":"1.0","name":"inst_582523CA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oMultiplayerCamera","path":"objects/oMultiplayerCamera/oMultiplayerCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":136.0,"resourceVersion":"1.0","name":"inst_1A7683FC","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"player","path":"objects/oMultiplayer/oMultiplayer.yy",},"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"controller","path":"objects/oMultiplayer/oMultiplayer.yy",},"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":176.0,"resourceVersion":"1.0","name":"inst_5655B2C0","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"player","path":"objects/oMultiplayer/oMultiplayer.yy",},"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"controller","path":"objects/oMultiplayer/oMultiplayer.yy",},"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"oMultiplayer","path":"objects/oMultiplayer/oMultiplayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":336.0,"y":176.0,"resourceVersion":"1.0","name":"inst_68E3CEE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oMultiplayerSpawner","path":"objects/oMultiplayerSpawner/oMultiplayerSpawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":232.0,"y":136.0,"resourceVersion":"1.0","name":"inst_6D1463BD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tGrayTileset","path":"tilesets/tGrayTileset/tGrayTileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":64,"SerialiseHeight":36,"TileSerialiseData":[
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -92,13 +80,10 @@
     {"name":"inst_34A72DB3","path":"rooms/rMultiplayer/rMultiplayer.yy",},
     {"name":"inst_4F791CFE","path":"rooms/rMultiplayer/rMultiplayer.yy",},
     {"name":"inst_6768ADFE","path":"rooms/rMultiplayer/rMultiplayer.yy",},
-    {"name":"inst_124F1AC","path":"rooms/rMultiplayer/rMultiplayer.yy",},
-    {"name":"inst_582523CA","path":"rooms/rMultiplayer/rMultiplayer.yy",},
     {"name":"inst_1A7683FC","path":"rooms/rMultiplayer/rMultiplayer.yy",},
     {"name":"inst_204A020","path":"rooms/rMultiplayer/rMultiplayer.yy",},
     {"name":"inst_5A6BCB85","path":"rooms/rMultiplayer/rMultiplayer.yy",},
-    {"name":"inst_5655B2C0","path":"rooms/rMultiplayer/rMultiplayer.yy",},
-    {"name":"inst_68E3CEE","path":"rooms/rMultiplayer/rMultiplayer.yy",},
+    {"name":"inst_6D1463BD","path":"rooms/rMultiplayer/rMultiplayer.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

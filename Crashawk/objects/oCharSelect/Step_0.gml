@@ -79,3 +79,19 @@ if(!alreadyExists && newInput != -1)
 	newGB.controller = newInput;
 	newGB.player = openSlot;
 }
+
+// Check for start
+numPlayers = 0;
+
+if (global.p1skin != -1) numPlayers++;
+if (global.p2skin != -1) numPlayers++;
+if (global.p3skin != -1) numPlayers++;
+if (global.p4skin != -1) numPlayers++;
+
+if(numPlayers > 1)
+{
+	if(keyboard_check_pressed(vk_enter))
+	{
+		SlideTransition(TRANS_MODE.GOTO,rMultiplayer);	
+	}
+}

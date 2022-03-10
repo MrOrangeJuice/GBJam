@@ -83,11 +83,25 @@ if(!confirm)
 
 	if(key_left)
 	{
-		skin--;
-		if(skin < 0)
+		global.skins[skin] = false;
+		nextSkin = skin - 1;
+		if(nextSkin < 0)
 		{
-			skin = 3;	
+			nextSkin = 3;	
 		}
+		if(global.skins[nextSkin] == true)
+		{
+			while(global.skins[nextSkin] == true)
+			{
+				nextSkin--;
+				if(nextSkin < 0)
+				{
+					nextSkin = 3;	
+				}
+			}
+		}
+		skin = nextSkin;
+		global.skins[skin] = true;
 	}
 }
 
