@@ -68,11 +68,6 @@ if(key_select)
 	}
 }
 
-if(keyboard_check_pressed(vk_ralt) || gamepad_button_check_pressed(0, gp_shoulderr))
-{
-	SlideTransition(TRANS_MODE.GOTO,rMultiplayerResults);	
-}
-
 image_index = currentItem;
 
 // Record analog inputs for this frame

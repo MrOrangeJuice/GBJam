@@ -96,6 +96,8 @@ if(numPlayers > 1)
 	gamepad_button_check_pressed(5,gp_start) || gamepad_button_check_pressed(6,gp_start) ||
 	gamepad_button_check_pressed(7,gp_start))
 	{
+		audio_play_sound(snd_Start,5,false);
+		ScreenShake(2,10);
 		SlideTransition(TRANS_MODE.GOTO,rMultiplayer);	
 	}
 }

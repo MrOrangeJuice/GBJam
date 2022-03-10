@@ -79,6 +79,7 @@ if(!confirm)
 		}
 		skin = nextSkin;
 		global.skins[skin] = true;
+		audio_play_sound(snd_MenuMove,5,false);
 	}
 
 	if(key_left)
@@ -102,6 +103,7 @@ if(!confirm)
 		}
 		skin = nextSkin;
 		global.skins[skin] = true;
+		audio_play_sound(snd_MenuMove,5,false);
 	}
 }
 
@@ -145,6 +147,7 @@ if(key_select && !confirm && inPlace)
 			sprite_index = sGameBoyPurple;
 			break;
 	}
+	audio_play_sound(snd_MenuSelect,5,false);
 }
 
 // Back Out
@@ -157,6 +160,7 @@ if(key_back && inPlace && !confirm)
 	global.controllers[player] = -1;
 	alarm[0] = room_speed;
 	global.skins[skin] = false;
+	audio_play_sound(snd_Collision,5,false);
 }
 
 if(key_back && inPlace && confirm)
@@ -180,6 +184,7 @@ if(key_back && inPlace && confirm)
 			global.p4skin = -1;
 			break;
 	}
+	audio_play_sound(snd_PauseOut,5,false);
 }
 
 // Record analog inputs for this frame

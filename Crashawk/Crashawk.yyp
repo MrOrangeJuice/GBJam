@@ -111,6 +111,7 @@
     {"id":{"name":"sTrophyPurple","path":"sprites/sTrophyPurple/sTrophyPurple.yy",},"order":77,},
     {"id":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"order":3,},
     {"id":{"name":"sMenuNew","path":"sprites/sMenuNew/sMenuNew.yy",},"order":78,},
+    {"id":{"name":"snd_Start","path":"sounds/snd_Start/snd_Start.yy",},"order":25,},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},"order":62,},
     {"id":{"name":"oCannon","path":"objects/oCannon/oCannon.yy",},"order":36,},
     {"id":{"name":"sGameBoyGreen","path":"sprites/sGameBoyGreen/sGameBoyGreen.yy",},"order":81,},
