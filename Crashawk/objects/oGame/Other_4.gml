@@ -52,3 +52,23 @@ if(room != rTitle && room != rResults && room != rMultiplayer)
 	alarm[0] = room_speed * 1;
 	alarm[1] = room_speed * 4;
 }
+
+// Music
+audio_stop_sound(msc_CharSelect);
+audio_stop_sound(msc_Level1);
+audio_stop_sound(msc_Level2);
+audio_stop_sound(msc_Title);
+audio_stop_sound(msc_Multiplayer);
+
+if(room == rTitle)
+{
+	audio_play_sound(msc_Title,5,true);
+}
+if(room == rMultiplayer)
+{
+	audio_play_sound(msc_Multiplayer,5,true);	
+}
+if(room == rCharSelect)
+{
+	audio_play_sound(msc_CharSelect,5,true);	
+}

@@ -184,7 +184,7 @@ if(key_back && inPlace && confirm)
 			global.p4skin = -1;
 			break;
 	}
-	audio_play_sound(snd_PauseOut,5,false);
+	audio_play_sound(snd_Collision,5,false);
 }
 
 // Record analog inputs for this frame
