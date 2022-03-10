@@ -8,5 +8,16 @@ doomed = false;
 analogLeftPrev = false;
 analogRightPrev = false;
 
-skin = 0;
+// Find open skin slot
+openSkinSlot = -1;
+for(i = 0; i < array_length(global.skins); i++)
+{
+	if(global.skins[i] == false)
+	{
+		openSkinSlot = i;
+		break;
+	}
+}
+skin = openSkinSlot;
+global.skins[skin] = true;
 confirm = false;

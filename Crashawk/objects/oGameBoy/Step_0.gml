@@ -60,11 +60,25 @@ if(!confirm)
 {
 	if(key_right)
 	{
-		skin++;
-		if(skin > 3)
+		global.skins[skin] = false;
+		nextSkin = skin + 1;
+		if(nextSkin > 3)
 		{
-			skin = 0;	
+			nextSkin = 0;	
 		}
+		if(global.skins[nextSkin] == true)
+		{
+			while(global.skins[nextSkin] == true)
+			{
+				nextSkin++;
+				if(nextSkin > 3)
+				{
+					nextSkin = 0;	
+				}
+			}
+		}
+		skin = nextSkin;
+		global.skins[skin] = true;
 	}
 
 	if(key_left)
@@ -128,6 +142,7 @@ if(key_back && inPlace && !confirm)
 	instance_destroy(playerCSS);
 	global.controllers[player] = -1;
 	alarm[0] = room_speed;
+	global.skins[skin] = false;
 }
 
 if(key_back && inPlace && confirm)
