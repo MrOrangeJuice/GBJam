@@ -157,8 +157,8 @@ if(key_back && inPlace && !confirm)
 	inPlace = false;
 	doomed = true;
 	instance_destroy(playerCSS);
-	global.controllers[player] = -1;
 	alarm[0] = room_speed;
+	alarm[1] = room_speed * 0.5;
 	global.skins[skin] = false;
 	audio_play_sound(snd_Collision,5,false);
 }
