@@ -25,10 +25,10 @@ global.p2skin = -1;
 global.p3skin = -1;
 global.p4skin = -1;
 
-global.p1lives = 10;
-global.p2lives = 10;
-global.p3lives = 10;
-global.p4lives = 10;
+global.p1lives = 0;
+global.p2lives = 0;
+global.p3lives = 0;
+global.p4lives = 0;
 
 global.skins = [false,false,false,false];
 

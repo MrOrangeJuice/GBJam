@@ -21,19 +21,5 @@ if (gamepad_button_check_pressed(0,gp_face1) || gamepad_button_check_pressed(1,g
 if(key_jump)
 {
 	audio_play_sound(snd_MenuSelect,5,false);
-	SlideTransition(TRANS_MODE.GOTO,rCharSelect);	
-	
-	global.p1skin = -1;
-	global.p2skin = -1;
-	global.p3skin = -1;
-	global.p4skin = -1;
-
-	global.p1lives = 10;
-	global.p2lives = 10;
-	global.p3lives = 10;
-	global.p4lives = 10;
-
-	global.skins = [false,false,false,false];
-
-	global.controllers = [-1,-1,-1,-1];
+	SlideTransition(TRANS_MODE.GOTO,rCharSelect);
 }
