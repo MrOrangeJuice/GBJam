@@ -44,6 +44,11 @@ if(key_pause)
 	{
 		if(global.paused)
 		{
+			audio_resume_sound(msc_CharSelect);
+			audio_resume_sound(msc_Level1);
+			audio_resume_sound(msc_Level2);
+			audio_resume_sound(msc_Multiplayer);
+			audio_resume_sound(msc_Title);
 			audio_play_sound(snd_PauseOut,5,false);
 			// Reset pause menu
 			pauseOption = 0;
@@ -51,6 +56,11 @@ if(key_pause)
 		}
 		else if(!global.paused)
 		{
+			audio_pause_sound(msc_CharSelect);
+			audio_pause_sound(msc_Level1);
+			audio_pause_sound(msc_Level2);
+			audio_pause_sound(msc_Multiplayer);
+			audio_pause_sound(msc_Title);
 			audio_play_sound(snd_PauseIn,5,false);
 			global.paused = true;	
 		}
@@ -85,6 +95,11 @@ if(global.paused)
 		switch(pauseOption)
 		{
 			case 0:
+				audio_resume_sound(msc_CharSelect);
+				audio_resume_sound(msc_Level1);
+				audio_resume_sound(msc_Level2);
+				audio_resume_sound(msc_Multiplayer);
+				audio_resume_sound(msc_Title);
 				audio_play_sound(snd_PauseOut,5,false);
 				// Reset pause menu
 				if(instance_exists(oPlayer))
