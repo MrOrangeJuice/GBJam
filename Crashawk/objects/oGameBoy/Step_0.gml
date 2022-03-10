@@ -32,13 +32,13 @@ if(controller == 8)
 else
 {
 	// Gamepad input
-	if ((gamepad_axis_value(controller,gp_axislh) < -0.2 && !analogLeftPrev) || gamepad_button_check_pressed(controller,gp_padl))
+	if ((gamepad_axis_value(controller,gp_axislh) < -0.2 && analogLeftPrev == false) || gamepad_button_check_pressed(controller,gp_padl))
 	{
 		key_left = 1;
 		analogLeftPrev = true;
 	}
 
-	if ((gamepad_axis_value(controller,gp_axislh) > 0.2 && !analogRightPrev) || gamepad_button_check_pressed(controller,gp_padr))
+	if ((gamepad_axis_value(controller,gp_axislh) > 0.2 && analogRightPrev == false) || gamepad_button_check_pressed(controller,gp_padr))
 	{
 		key_right = 1;
 		analogRightPrev = true;
@@ -83,10 +83,25 @@ if(inPlace)
 	playerCSS.color = skin;
 }
 
-if(key_select && !confirm)
+if(key_select && !confirm && inPlace)
 {
 	playerCSS.confirmed = true;	
 	confirm = true;
+	switch(player)
+	{
+		case 0:
+			global.p1skin = skin;
+			break;
+		case 1:
+			global.p2skin = skin;
+			break;
+		case 2:
+			global.p3skin = skin;
+			break;
+		case 3:
+			global.p4skin = skin;
+			break;
+	}
 	switch(skin)
 	{
 		case 0:
@@ -105,7 +120,6 @@ if(key_select && !confirm)
 }
 
 // Back Out
-
 if(key_back && inPlace && !confirm)
 {
 	slow = 0.2;
@@ -121,10 +135,26 @@ if(key_back && inPlace && confirm)
 	confirm = false;
 	playerCSS.confirmed = false;
 	sprite_index = sGameBoy;
+	// Reset skin
+	switch(player)
+	{
+		case 0:
+			global.p1skin = -1;
+			break;
+		case 1:
+			global.p2skin = -1;
+			break;
+		case 2:
+			global.p3skin = -1;
+			break;
+		case 3:
+			global.p4skin = -1;
+			break;
+	}
 }
 
 // Record analog inputs for this frame
-if(gamepad_axis_value(0,gp_axislh) < -0.2)
+if(gamepad_axis_value(controller,gp_axislh) < -0.2)
 {
 	analogLeftPrev = true;	
 }
@@ -133,7 +163,7 @@ else
 	analogLeftPrev = false;	
 }
 
-if(gamepad_axis_value(0,gp_axislh) > 0.2)
+if(gamepad_axis_value(controller,gp_axislh) > 0.2)
 {
 	analogRightPrev = true;	
 }

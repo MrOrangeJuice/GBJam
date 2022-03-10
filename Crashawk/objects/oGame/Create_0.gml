@@ -20,14 +20,16 @@ levelSplash = false;
 splashOffset = 48;
 
 // Multiplayer
-global.p1skin = 0;
-global.p2skin = 1;
-global.p3skin = 2;
-global.p4skin = 3;
+global.p1skin = -1;
+global.p2skin = -1;
+global.p3skin = -1;
+global.p4skin = -1;
 
 global.p1lives = 10;
 global.p2lives = 10;
 global.p3lives = 10;
 global.p4lives = 10;
+
+global.skins = [false,false,false,false];
 
 global.controllers = [-1,-1,-1,-1];
