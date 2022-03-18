@@ -71,4 +71,5 @@ if(room == rMultiplayer)
 if(room == rCharSelect)
 {
 	audio_play_sound(msc_CharSelect,5,true);	
+	audio_stop_sound(snd_DrumRoll);
 }

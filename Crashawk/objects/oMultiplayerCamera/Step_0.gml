@@ -1,8 +1,15 @@
 /// @description Update camera
 
 // Update object position
-x += (xTo - x) / 8;
-y += (yTo - y) / 8;
+dX = (xTo - x) / 8;
+dY = (yTo - y) / 8;
+
+//reduce subpixel movement
+if (abs(dX) < 0.01) dX = 0;
+if (abs(dY) < 0.01) dY = 0;
+
+x += dX;
+y += dY;
 
 // Keep camera center inside room
 x = clamp(x,view_w_half+buff,room_width-view_w_half-buff);
