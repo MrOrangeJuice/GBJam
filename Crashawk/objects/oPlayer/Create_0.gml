@@ -18,3 +18,4 @@ canDash = true;
 isDashing = false;
 dashInit = false;
 bumperHit = false;
+slimeHit = false;

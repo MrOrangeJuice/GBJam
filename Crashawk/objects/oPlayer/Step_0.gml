@@ -285,6 +285,8 @@ if(!global.paused)
 		{
 			vsp *= 0.85; //essentially, divide your vertical speed
 		}
+		
+		slimeHit = false;
 
 		//x collision
 		if(place_meeting(x + hsp, y, oWall)){
@@ -293,6 +295,29 @@ if(!global.paused)
 			}
 			hsp = 0;
 			currentwalksp = 0;
+		}
+		// Slime Block collision
+		
+		// Right
+		slime = instance_place(x + 2, y, oSlimeBlock);
+		if(slime && vsp <= 0 && !slimeHit)
+		{
+			vsp = -3;
+			currentwalksp = -4;
+			hsp = -4;
+			slime.hit = true;
+			slimeHit = true;
+		}
+		
+		// Left
+		slime = instance_place(x - 2, y, oSlimeBlock);
+		if(slime && vsp <= 0 && !slimeHit)
+		{
+			vsp = -3;
+			currentwalksp = 4;
+			hsp = 4;
+			slime.hit = true;
+			slimeHit = true;
 		}
 
 		x = x + hsp;
@@ -303,6 +328,32 @@ if(!global.paused)
 				y = y + sign(vsp);
 			}
 			vsp = 0;
+		}
+		// Slime Block collision
+		
+		// Up
+		slime = instance_place(x, y - 2, oSlimeBlock);
+		if(slime && vsp < 0 && !slimeHit)
+		{
+			vsp = 3;
+			slime.hit = true;
+			slimeHit = true;
+		}
+		
+		// Down
+		slime = instance_place(x, y + 2, oSlimeBlock);
+		if(slime && vsp >= 0 && !slimeHit)
+		{
+			if(key_jump)
+			{
+				vsp = -5;
+			}
+			else
+			{
+				vsp = -4.7;	
+			}
+			slime.hit = true;
+			slimeHit = true;
 		}
 
 		y = y + vsp;
