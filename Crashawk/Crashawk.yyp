@@ -211,6 +211,7 @@
     {"id":{"name":"sGreenHUD","path":"sprites/sGreenHUD/sGreenHUD.yy",},"order":12,},
     {"id":{"name":"oPlayerCannonEnter","path":"objects/oPlayerCannonEnter/oPlayerCannonEnter.yy",},"order":40,},
     {"id":{"name":"sThumbnail3Big","path":"sprites/sThumbnail3Big/sThumbnail3Big.yy",},"order":87,},
+    {"id":{"name":"sThumbnail2SAGE","path":"sprites/sThumbnail2SAGE/sThumbnail2SAGE.yy",},"order":91,},
     {"id":{"name":"sGameBoyRed","path":"sprites/sGameBoyRed/sGameBoyRed.yy",},"order":83,},
     {"id":{"name":"sPlayerDashRed","path":"sprites/sPlayerDashRed/sPlayerDashRed.yy",},"order":4,},
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":13,},
@@ -303,7 +304,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.6.1.26",
   },
   "resourceVersion": "1.5",
   "name": "Crashawk",
