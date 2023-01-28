@@ -197,40 +197,46 @@ if(!global.paused)
 		// Build up speed depending on inputs
 		if(key_left && !key_right)
 		{
-			currentwalksp -= 0.25;
-			if(currentwalksp < (-walksp - 0.5))
+			if(currentwalksp == -walksp)
 			{
-				currentwalksp += 0.5;
+				// Don't do anything
 			}
-			else if(currentwalksp < -walksp)
+			else if(currentwalksp < -walksp) 
 			{
-				currentwalksp += 0.25;
+				currentwalksp += decceleration;
+			}
+			else
+			{
+				currentwalksp -= acceleration;
 			}
 		}
 		if(key_right && !key_left)
 		{
-			currentwalksp += 0.25;
-			if(currentwalksp > (walksp + 0.5))
+			if(currentwalksp == walksp)
 			{
-				currentwalksp -= 0.5;
+				// Don't do anything
 			}
-			else if(currentwalksp > walksp)
+			else if(currentwalksp > walksp) 
 			{
-				currentwalksp -= 0.25;
+				currentwalksp -= decceleration;
 			}
-		}
-		// Slow down if not moving
-		if (!(key_left || key_right) || (key_left && key_right))
-		{
-			if(currentwalksp < 0)
+			else
 			{
-				currentwalksp += 0.25;
-			}
-			if(currentwalksp > 0)
-			{
-				currentwalksp -= 0.25;
+				currentwalksp += acceleration;
 			}
 		}
+// Slow down if not moving
+if (!(key_left || key_right) || (key_left && key_right))
+{
+	if(currentwalksp < 0)
+	{
+		currentwalksp += acceleration;
+	}
+	if(currentwalksp > 0)
+	{
+		currentwalksp -= acceleration;
+	}
+}
 	
 		// Clamp vsp
 		if(vsp >= vdashsp)
