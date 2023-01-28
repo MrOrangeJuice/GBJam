@@ -277,6 +277,7 @@ if (!(key_left || key_right) || (key_left && key_right))
 		{
 			airborne = false;	
 			jumpBuffer = 5;
+			noVarJump = false;
 		}
 
 		// Jump
@@ -288,7 +289,7 @@ if (!(key_left || key_right) || (key_left && key_right))
 		}
 
 		// Variable jump height
-		if vsp < 0 && (!(key_jump)) //if you're moving upwards in the air but not holding down jump
+		if vsp < 0 && (!(key_jump) && !noVarJump) //if you're moving upwards in the air but not holding down jump
 		{
 			vsp *= 0.85; //essentially, divide your vertical speed
 		}
@@ -309,6 +310,7 @@ if (!(key_left || key_right) || (key_left && key_right))
 		slime = instance_place(x + 2, y, oSlimeBlock);
 		if(slime && vsp <= 0 && !slimeHit)
 		{
+			noVarJump = true;
 			audio_play_sound(snd_Slime,5,false);
 			vsp = -3;
 			currentwalksp = -4;
@@ -321,6 +323,7 @@ if (!(key_left || key_right) || (key_left && key_right))
 		slime = instance_place(x - 2, y, oSlimeBlock);
 		if(slime && vsp <= 0 && !slimeHit)
 		{
+			noVarJump = true;
 			audio_play_sound(snd_Slime,5,false);
 			vsp = -3;
 			currentwalksp = 4;
@@ -344,6 +347,7 @@ if (!(key_left || key_right) || (key_left && key_right))
 		slime = instance_place(x, y - 2, oSlimeBlock);
 		if(slime && vsp < 0 && !slimeHit)
 		{
+			noVarJump = true;
 			audio_play_sound(snd_Slime,5,false);
 			vsp = 3;
 			slime.hit = true;
@@ -363,8 +367,9 @@ if (!(key_left || key_right) || (key_left && key_right))
 			else
 			{
 				audio_play_sound(snd_Slime,5,false);
-				vsp = -6.5;	
+				vsp = -3.2;	
 			}
+			noVarJump = true;
 			slime.hit = true;
 			slimeHit = true;
 		}

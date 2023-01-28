@@ -69,6 +69,7 @@
     {"id":{"name":"sCSSTutorial","path":"sprites/sCSSTutorial/sCSSTutorial.yy",},"order":17,},
     {"id":{"name":"sPlayerJumpDownBlue","path":"sprites/sPlayerJumpDownBlue/sPlayerJumpDownBlue.yy",},"order":4,},
     {"id":{"name":"msc_Multiplayer","path":"sounds/msc_Multiplayer/msc_Multiplayer.yy",},"order":27,},
+    {"id":{"name":"oEndCannon","path":"objects/oEndCannon/oEndCannon.yy",},"order":56,},
     {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"order":15,},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},"order":14,},
     {"id":{"name":"sArrowDiagonalLeftRed","path":"sprites/sArrowDiagonalLeftRed/sArrowDiagonalLeftRed.yy",},"order":2,},

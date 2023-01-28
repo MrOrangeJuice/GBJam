@@ -54,7 +54,7 @@ if(key_select)
 	switch(currentItem)
 	{
 		case 0:
-			SlideTransition(TRANS_MODE.GOTO,rLevel1);
+			SlideTransition(TRANS_MODE.GOTO,rLevel3);
 			break;
 		case 1:
 			SlideTransition(TRANS_MODE.GOTO,rCharSelect);

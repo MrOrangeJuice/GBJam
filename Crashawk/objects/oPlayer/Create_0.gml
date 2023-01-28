@@ -21,3 +21,4 @@ isDashing = false;
 dashInit = false;
 bumperHit = false;
 slimeHit = false;
+noVarJump = false;
