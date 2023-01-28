@@ -225,18 +225,26 @@ if(!global.paused)
 				currentwalksp += acceleration;
 			}
 		}
-// Slow down if not moving
-if (!(key_left || key_right) || (key_left && key_right))
-{
-	if(currentwalksp < 0)
-	{
-		currentwalksp += acceleration;
-	}
-	if(currentwalksp > 0)
-	{
-		currentwalksp -= acceleration;
-	}
-}
+		// Slow down if not moving
+		if (!(key_left || key_right) || (key_left && key_right))
+		{
+			if(currentwalksp < 0)
+			{
+				currentwalksp += acceleration;
+				if(currentwalksp > 0)
+				{
+					currentwalksp = 0;	
+				}
+			}
+			if(currentwalksp > 0)
+			{
+				currentwalksp -= acceleration;
+				if(currentwalksp < 0)
+				{
+					currentwalksp = 0;	
+				}
+			}
+		}
 	
 		// Clamp vsp
 		if(vsp >= vdashsp)
