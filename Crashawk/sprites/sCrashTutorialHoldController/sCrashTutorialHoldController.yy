@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sCrashTutorialHoldController",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -24,39 +28,21 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b55defbc-f12a-4bf3-8281-c333b9c74ece","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b55defbc-f12a-4bf3-8281-c333b9c74ece","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"b55defbc-f12a-4bf3-8281-c333b9c74ece","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"11c11f72-d531-4fa3-8ce2-5b8f445e0fec","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"11c11f72-d531-4fa3-8ce2-5b8f445e0fec","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"11c11f72-d531-4fa3-8ce2-5b8f445e0fec","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d283d3af-9de6-45d5-9509-d0601a83e7fb","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d283d3af-9de6-45d5-9509-d0601a83e7fb","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"d283d3af-9de6-45d5-9509-d0601a83e7fb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d6cf0b0b-1ae2-4a1f-8b2b-207d5a7e1b3f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d6cf0b0b-1ae2-4a1f-8b2b-207d5a7e1b3f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"d6cf0b0b-1ae2-4a1f-8b2b-207d5a7e1b3f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7ceb472d-fb44-45cc-a64c-d2ed86702d0c","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7ceb472d-fb44-45cc-a64c-d2ed86702d0c","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"7ceb472d-fb44-45cc-a64c-d2ed86702d0c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b6b791fc-6ed6-431d-afd7-1af91575927c","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b6b791fc-6ed6-431d-afd7-1af91575927c","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"b6b791fc-6ed6-431d-afd7-1af91575927c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c2e6c7e5-4d55-4868-8713-10c21af83e72","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2e6c7e5-4d55-4868-8713-10c21af83e72","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"c2e6c7e5-4d55-4868-8713-10c21af83e72","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3e8e68a0-5e6a-4ce9-9c77-07dffe70ae78","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3e8e68a0-5e6a-4ce9-9c77-07dffe70ae78","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"3e8e68a0-5e6a-4ce9-9c77-07dffe70ae78","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8168b13f-85fa-4cb4-9f10-f2ac902e9761","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8168b13f-85fa-4cb4-9f10-f2ac902e9761","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"LayerId":{"name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","name":"8168b13f-85fa-4cb4-9f10-f2ac902e9761","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b55defbc-f12a-4bf3-8281-c333b9c74ece",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11c11f72-d531-4fa3-8ce2-5b8f445e0fec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d283d3af-9de6-45d5-9509-d0601a83e7fb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6cf0b0b-1ae2-4a1f-8b2b-207d5a7e1b3f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7ceb472d-fb44-45cc-a64c-d2ed86702d0c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6b791fc-6ed6-431d-afd7-1af91575927c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2e6c7e5-4d55-4868-8713-10c21af83e72",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3e8e68a0-5e6a-4ce9-9c77-07dffe70ae78",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8168b13f-85fa-4cb4-9f10-f2ac902e9761",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sCrashTutorialHoldController",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -67,7 +53,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8b41e3ef-d427-4314-a320-987bca87ac9c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e2ae1b0-0c25-4233-9ed0-23fd6f9ea658","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0164943a-416c-4ea1-b17e-41555519fa34","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b55defbc-f12a-4bf3-8281-c333b9c74ece","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"671a577b-dac5-4e9e-8250-b60fb24a2e92","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11c11f72-d531-4fa3-8ce2-5b8f445e0fec","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -78,7 +64,7 @@
             {"id":"a5cc1d07-11ef-4e5e-a55b-5f95d7125e41","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2e6c7e5-4d55-4868-8713-10c21af83e72","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f7b626b8-511a-48dd-ab90-c220b2db1857","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3e8e68a0-5e6a-4ce9-9c77-07dffe70ae78","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"96790a63-aa7e-4bb8-bea0-addbdb4b8910","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8168b13f-85fa-4cb4-9f10-f2ac902e9761","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -94,22 +80,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCrashTutorialHoldController","path":"sprites/sCrashTutorialHoldController/sCrashTutorialHoldController.yy",},
-    "resourceVersion": "1.4",
-    "name": "sCrashTutorialHoldController",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"19e302e6-e85f-41de-83c4-c1ebcc72154f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tutorials",
     "path": "folders/Sprites/Tutorials.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sCrashTutorialHoldController",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

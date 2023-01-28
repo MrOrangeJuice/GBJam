@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sArrowDiagonalLeftBlue",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 8,
   "height": 8,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4e9d0122-b395-4ba3-ae63-26c32f8aee40","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4e9d0122-b395-4ba3-ae63-26c32f8aee40","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"LayerId":{"name":"a3cd8194-d0c3-452a-8706-7c64046c0d42","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sArrowDiagonalLeftBlue","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"resourceVersion":"1.0","name":"4e9d0122-b395-4ba3-ae63-26c32f8aee40","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c254ed3d-4a90-4957-97b5-6950c8a47bd0","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c254ed3d-4a90-4957-97b5-6950c8a47bd0","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"LayerId":{"name":"a3cd8194-d0c3-452a-8706-7c64046c0d42","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sArrowDiagonalLeftBlue","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"resourceVersion":"1.0","name":"c254ed3d-4a90-4957-97b5-6950c8a47bd0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e9d0122-b395-4ba3-ae63-26c32f8aee40",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c254ed3d-4a90-4957-97b5-6950c8a47bd0",},
   ],
   "sequence": {
-    "spriteId": {"name":"sArrowDiagonalLeftBlue","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sArrowDiagonalLeftBlue",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6ab4d61d-110b-476b-9a3b-e25921f807e6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4e9d0122-b395-4ba3-ae63-26c32f8aee40","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f1949e2d-d964-454d-acec-41c5d4725f77","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c254ed3d-4a90-4957-97b5-6950c8a47bd0","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sArrowDiagonalLeftBlue","path":"sprites/sArrowDiagonalLeftBlue/sArrowDiagonalLeftBlue.yy",},
-    "resourceVersion": "1.4",
-    "name": "sArrowDiagonalLeftBlue",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a3cd8194-d0c3-452a-8706-7c64046c0d42","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a3cd8194-d0c3-452a-8706-7c64046c0d42","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Blue",
     "path": "folders/Sprites/Players/Blue.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sArrowDiagonalLeftBlue",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
