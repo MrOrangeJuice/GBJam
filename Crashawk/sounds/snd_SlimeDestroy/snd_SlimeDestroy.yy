@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_RankA",
+  "name": "snd_SlimeDestroy",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_RankA.wav",
-  "duration": 0.743016,
+  "soundFile": "snd_SlimeDestroy.wav",
+  "duration": 0.056032,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

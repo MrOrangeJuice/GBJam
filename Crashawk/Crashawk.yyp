@@ -48,6 +48,7 @@
     {"id":{"name":"oEndDoor","path":"objects/oEndDoor/oEndDoor.yy",},"order":14,},
     {"id":{"name":"oSlimeBlock","path":"objects/oSlimeBlock/oSlimeBlock.yy",},"order":54,},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":20,},
+    {"id":{"name":"snd_Slime","path":"sounds/snd_Slime/snd_Slime.yy",},"order":36,},
     {"id":{"name":"oMultiplayerCamera","path":"objects/oMultiplayerCamera/oMultiplayerCamera.yy",},"order":31,},
     {"id":{"name":"sArrowDiagonalLeft","path":"sprites/sArrowDiagonalLeft/sArrowDiagonalLeft.yy",},"order":9,},
     {"id":{"name":"sTitleLayer","path":"sprites/sTitleLayer/sTitleLayer.yy",},"order":29,},
@@ -196,6 +197,7 @@
     {"id":{"name":"oMoveTutorial","path":"objects/oMoveTutorial/oMoveTutorial.yy",},"order":22,},
     {"id":{"name":"tHills","path":"tilesets/tHills/tHills.yy",},"order":2,},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},"order":4,},
+    {"id":{"name":"snd_SlimeStrong","path":"sounds/snd_SlimeStrong/snd_SlimeStrong.yy",},"order":35,},
     {"id":{"name":"oContinueTutorialGray","path":"objects/oContinueTutorialGray/oContinueTutorialGray.yy",},"order":45,},
     {"id":{"name":"sGameBoyPurple","path":"sprites/sGameBoyPurple/sGameBoyPurple.yy",},"order":84,},
     {"id":{"name":"sHeartPurple","path":"sprites/sHeartPurple/sHeartPurple.yy",},"order":11,},
@@ -220,6 +222,7 @@
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":13,},
     {"id":{"name":"oPlayerDeath","path":"objects/oPlayerDeath/oPlayerDeath.yy",},"order":7,},
     {"id":{"name":"sTrophy","path":"sprites/sTrophy/sTrophy.yy",},"order":72,},
+    {"id":{"name":"snd_SlimeDestroy","path":"sounds/snd_SlimeDestroy/snd_SlimeDestroy.yy",},"order":32,},
     {"id":{"name":"snd_DrumRoll","path":"sounds/snd_DrumRoll/snd_DrumRoll.yy",},"order":22,},
     {"id":{"name":"sPlayerRunBlue","path":"sprites/sPlayerRunBlue/sPlayerRunBlue.yy",},"order":6,},
     {"id":{"name":"sPlayerJumpDownPurple","path":"sprites/sPlayerJumpDownPurple/sPlayerJumpDownPurple.yy",},"order":6,},
@@ -306,6 +309,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.11.1.56",
   },
 }

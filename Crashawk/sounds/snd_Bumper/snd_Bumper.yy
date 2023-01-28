@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_Bumper",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -12,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_Bumper.wav",
-  "duration": 0.120714,
+  "duration": 0.115714,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_Bumper",
-  "tags": [],
-  "resourceType": "GMSound",
 }

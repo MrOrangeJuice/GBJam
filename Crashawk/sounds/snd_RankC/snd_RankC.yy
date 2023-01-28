@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_RankC",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -12,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_RankC.wav",
-  "duration": 0.298696,
+  "duration": 0.293696,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_RankC",
-  "tags": [],
-  "resourceType": "GMSound",
 }

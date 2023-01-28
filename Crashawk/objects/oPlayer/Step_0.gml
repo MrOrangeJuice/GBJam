@@ -246,6 +246,7 @@ if(!global.paused)
 			canJump = true;
 		}
 	
+		// Same for dash
 		if(key_dash_released)
 		{
 			canDash = true;	
@@ -302,6 +303,7 @@ if(!global.paused)
 		slime = instance_place(x + 2, y, oSlimeBlock);
 		if(slime && vsp <= 0 && !slimeHit)
 		{
+			audio_play_sound(snd_Slime,5,false);
 			vsp = -3;
 			currentwalksp = -4;
 			hsp = -4;
@@ -313,6 +315,7 @@ if(!global.paused)
 		slime = instance_place(x - 2, y, oSlimeBlock);
 		if(slime && vsp <= 0 && !slimeHit)
 		{
+			audio_play_sound(snd_Slime,5,false);
 			vsp = -3;
 			currentwalksp = 4;
 			hsp = 4;
@@ -335,6 +338,7 @@ if(!global.paused)
 		slime = instance_place(x, y - 2, oSlimeBlock);
 		if(slime && vsp < 0 && !slimeHit)
 		{
+			audio_play_sound(snd_Slime,5,false);
 			vsp = 3;
 			slime.hit = true;
 			slimeHit = true;
@@ -346,11 +350,14 @@ if(!global.paused)
 		{
 			if(key_jump)
 			{
+				audio_play_sound(snd_SlimeStrong,5,false);
 				vsp = -5;
+				canJump = false;
 			}
 			else
 			{
-				vsp = -4.7;	
+				audio_play_sound(snd_Slime,5,false);
+				vsp = -6.5;	
 			}
 			slime.hit = true;
 			slimeHit = true;
